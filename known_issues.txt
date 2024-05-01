@@ -1,0 +1,6 @@
+7420/Marco-Polo-Reyes-vs-Jason-Novelli -> 7420/Polo-Reyes-vs-Jason-Novelli
+7455/Liz-Carmouche-vs-Katlyn-Chookagian -> 7455/Liz-Carmouche-vs-Katlyn-Chookagian (loser name is listed as Katlyn Cerminara on website)
+7476/Alexander-Volkov-vs-Timothy-Johnson -> 7476/fight
+7856/Timothy-Johnson-vs-Daniel-Omielanczuk -> 7856/Tim-Johnson-vs-Daniel-Omielanczuk
+7965/Katlyn-Chookagian-vs-Irene-Aldana -> 7965/Katlyn-Chookagian-vs-Irene-Aldana (loser name is listed as Katlyn Cerminara on website)
+8320/Elizeu-Zaleski-dos-Santos-vs-Lyman-Good -> 8320/Elizeu-Zaleski-dos-Santos-vs-Lyman-Good (index out of range because of but jump)
