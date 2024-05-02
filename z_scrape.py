@@ -77,6 +77,18 @@ def process_fight(fighter_1, fighter_2, estimated_fight_id, f1_won, last_id):
         fighter_1 = "Katlyn Cerminara"
     elif fighter_1 == "Azunna Anyanwu":
         fighter_1 = "Zu Anyanwu"
+    elif fighter_1 == "Jacare Souza":
+        fighter_1 = "Ronaldo Souza"
+    elif fighter_1 == "Pingyuan Liu":
+        fighter_1 = "Liu Pingyuan"
+    elif fighter_1 == "Bibulatov Magomed":
+        fighter_1 = "Magomed Bibulatov"
+    elif fighter_1 == "Inoue Mizuki":
+        fighter_1 = "Mizuki Inoue"
+    elif fighter_1 == "Joanne Calderwood":
+        fighter_1 = "Joanne Wood"
+    elif fighter_1 == "Weili Zhang":
+        fighter_1 = "Zhang Weili"
     
     if fighter_2 == "Marco Polo Reyes":
         fighter_2 = "Polo Reyes"
@@ -86,13 +98,27 @@ def process_fight(fighter_1, fighter_2, estimated_fight_id, f1_won, last_id):
         fighter_2 = "Katlyn Cerminara"
     elif fighter_2 == "Azunna Anyanwu":
         fighter_2 = "Zu Anyanwu"
+    elif fighter_2 == "Jacare Souza":
+        fighter_2 = "Ronaldo Souza"
+    elif fighter_2 == "Pingyuan Liu":
+        fighter_2 = "Liu Pingyuan"
+    elif fighter_2 == "Bibulatov Magomed":
+        fighter_2 = "Magomed Bibulatov"
+    elif fighter_2 == "Inoue Mizuki":
+        fighter_2 = "Mizuki Inoue"
+    elif fighter_2 == "Joanne Calderwood":
+        fighter_2 = "Joanne Wood"
+    elif fighter_2 == "Weili Zhang":
+        fighter_2 = "Zhang Weili"
         
     print(f"Starting: {fighter_1} vs {fighter_2}")
     winning_fighter, losing_fighter = (fighter_1, fighter_2) if f1_won == 1 else (fighter_2, fighter_1)
-    for fight_id in range(last_id+1-40, last_id + 400):
+    for fight_id in range(last_id-40, 11855):
+        if fight_id - last_id > 400:
+            break
         if (winning_fighter == "Alexander Volkov") and (losing_fighter == "Timothy Johnson"):
-            fight_id = 7476
-            url = f"http://mmadecisions.com/decision/{fight_id}/fight"
+            fight_id_n = 7476
+            url = f"http://mmadecisions.com/decision/{fight_id_n}/fight"
         else:
             url = f"http://mmadecisions.com/decision/{fight_id}/{winning_fighter.replace(' ', '-')}-vs-{losing_fighter.replace(' ', '-')}"
         response = requests.get(url)
@@ -101,6 +127,7 @@ def process_fight(fighter_1, fighter_2, estimated_fight_id, f1_won, last_id):
             check_page = is_correct_page(soup, fighter_1, fighter_2)
             print(f"{check_page=}, {fight_id}/{winning_fighter.replace(' ', '-')}-vs-{losing_fighter.replace(' ', '-')}")
             if check_page:
+                # print(soup)
                 judge_info = extract_judge_info(soup)
                 print(f"\nCompleted: {fighter_1} vs {fighter_2} | Fight ID: {fight_id}\n")
                 last_id = max(last_id, fight_id)
@@ -128,7 +155,7 @@ def main(practice, last_id):
         if result:
             results.append(result)
     fight_data_df = pd.DataFrame(results)
-    return fight_data_df
+    return fight_data_df, last_id
 
 def interpolate(df):
     ## CODE FOR INTERPOLATING FIGHT IDS
@@ -189,19 +216,23 @@ def clean_names(name):
 # Call the main function and pass your DataFrame
 if __name__ == '__main__':
     scrape_df = pd.read_csv("zack_scrape.csv")
-    scrape_df = scrape_df.iloc[50:76, :]
-    found_df = pd.read_csv("zack_found.csv")
-    scrape_df['Fight_ID'] = False
     
-    last_id = 7700
-    fight_data_df = main(scrape_df, last_id)
-    if not fight_data_df.empty:
-        print("Data extraction complete. Displaying partial data:")
-        print(fight_data_df.head())
-        found_df = pd.concat([found_df, fight_data_df])
-        for col in found_df.columns:
-            if col not in ('Fight_ID', 'F1_W', 'Judge-1-Score', 'Judge-2-Score', 'Judge-3-Score'):
-                found_df[col] = found_df[col].str.replace("\xa0", " ").apply(lambda x: clean_names(x))
-        found_df.to_csv("zack_found.csv", index=False)
-    else:
-        print("No data was extracted. Please check the input and URL patterns.")
+    last_id = 10820
+    for i in range(100, len(scrape_df), 2):
+        found_df = pd.read_csv("zack_found.csv")
+        sub_scrape_df = scrape_df.iloc[i:i+2, :]
+        sub_scrape_df['Fight_ID'] = False
+        fight_data_df, last_id = main(sub_scrape_df, last_id)
+        if not fight_data_df.empty:
+            print("Data extraction complete. Displaying partial data:")
+            print(fight_data_df.head())
+            found_df = pd.concat([found_df, fight_data_df])
+            for col in found_df.columns:
+                if col not in ('Fight_ID', 'F1_W', 'Judge-1-Score', 'Judge-2-Score', 'Judge-3-Score'):
+                    found_df[col] = found_df[col].str.replace("\xa0", " ").apply(lambda x: clean_names(x))
+            found_df.to_csv("zack_found.csv", index=False)
+        else:
+            print("No data was extracted. Please check the input and URL patterns.")
+    found_df = pd.read_csv("zack_found.csv")
+    found_df = found_df.drop_duplicates()
+    found_df.sort_values(by='Fight_ID', ascending=True).to_csv("zack_found.csv", index=False)

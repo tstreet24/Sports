@@ -46,11 +46,11 @@ def reorder_names(row):
 def clean_names(name):
     name = unidecode.unidecode(name)
     new = name.lower()
-    new = re.sub(r'[àáâãäå]', 'a', name)
-    new = re.sub(r'[èéêë]', 'e', name)
-    new = re.sub(r'[ìíîï]', 'i', name)
-    new = re.sub(r'[òóôõö]', 'o', name)
-    new = re.sub(r'[ùúûü]', 'u', name)
+    new = re.sub(r'[àáâãäå]', 'a', new)
+    new = re.sub(r'[èéêë]', 'e', new)
+    new = re.sub(r'[ìíîï]', 'i', new)
+    new = re.sub(r'[òóôõö]', 'o', new)
+    new = re.sub(r'[ùúûü]', 'u', new)
     return new
 
 all_fights = pd.read_csv("final_fight_scraping_df.csv")
