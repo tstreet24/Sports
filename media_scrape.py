@@ -2,8 +2,12 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-def get_media_scores(url, fighter_1, fighter_2):
+def get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=False):
+    url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
     
+    if print:
+        print(url)
+        
     payload = requests.get(url)
 
     # print(payload.links)
@@ -39,52 +43,39 @@ def get_media_scores(url, fighter_1, fighter_2):
             scores_count += 1
     return fighter_1_count, fighter_2_count, draw_count, scores_count
 
-fighter_1 = "Alexander Volkanovski"
-fighter_2 = "Max Holloway"
-f1_w = 1
-fight_id = 10781
-url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
-scores = get_media_scores(url=url,
-                          fighter_1=fighter_1, 
-                          fighter_2=fighter_2)
-print(f"\n{url}\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
+if __name__ == "__main__":
+    fighter_1 = "Alexander Volkanovski"
+    fighter_2 = "Max Holloway"
+    f1_w = 1
+    fight_id = 10781
+    scores = get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=True)
+    print(f"\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
 
-fighter_1 = "Michael Bisping"  	
-fighter_2 = "Rashad Evans"
-f1_w = 0
-fight_id = 902
-url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
-scores = get_media_scores(url=url,
-                          fighter_1=fighter_1, 
-                          fighter_2=fighter_2)
-print(f"\n{url}\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
+    fighter_1 = "Michael Bisping"  	
+    fighter_2 = "Rashad Evans"
+    f1_w = 0
+    fight_id = 902
+    scores = get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=True)
 
-fighter_1 = "Ignacio Bahamondes"
-fighter_2 = "John Makdessi"
-f1_w = 0
-fight_id = 11829
-url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
-scores = get_media_scores(url=url,
-                          fighter_1=fighter_1, 
-                          fighter_2=fighter_2)
-print(f"\n{url}\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
+    print(f"\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
 
-fighter_1 = "Bobby Green"
-fighter_2 = "Rashid Magomedov"
-f1_w = 0
-fight_id = 7985
-url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
-scores = get_media_scores(url=url,
-                          fighter_1=fighter_1, 
-                          fighter_2=fighter_2)
-print(f"\n{url}\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
+    fighter_1 = "Ignacio Bahamondes"
+    fighter_2 = "John Makdessi"
+    f1_w = 0
+    fight_id = 11829
+    scores = get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=True)
+    print(f"\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
 
-fighter_1 = "Martin Day"
-fighter_2 = "Pingyuan Liu"
-f1_w = 0
-fight_id = 9535
-url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
-scores = get_media_scores(url=url,
-                          fighter_1=fighter_1, 
-                          fighter_2=fighter_2)
-print(f"\n{url}\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
+    fighter_1 = "Bobby Green"
+    fighter_2 = "Rashid Magomedov"
+    f1_w = 0
+    fight_id = 7985
+    scores = get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=True)
+    print(f"\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
+
+    fighter_1 = "Martin Day"
+    fighter_2 = "Pingyuan Liu"
+    f1_w = 0
+    fight_id = 9535
+    scores = get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=True)
+    print(f"\n{fighter_1} got {scores[0]} votes | {fighter_2} got {scores[1]} votes | {scores[2]} votes for draw | {scores[3]} total votes\n")
