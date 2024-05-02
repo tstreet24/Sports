@@ -153,4 +153,7 @@ print(f"{found_fights.shape=}")
 print(f"# Fights that are still needed: {all_fights.shape[0] - found_fights.shape[0]}")
 print()
 
+for col in ['Judge-1-Name', 'Judge-2-Name', 'Judge-3-Name']:
+    found_fights[col] = found_fights[col].str.replace("\xa0", " ")
+
 found_fights.to_csv("post_scraping_all_fights.csv", index=False)

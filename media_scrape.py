@@ -3,6 +3,48 @@ import requests
 from bs4 import BeautifulSoup
 
 def get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=False):
+    if fighter_1 == "Marco Polo Reyes":
+        fighter_1 = "Polo Reyes"
+    elif fighter_1 == "Timothy Johnson":
+        fighter_1 = "Tim Johnson"
+    elif fighter_1 == "Katlyn Chookagian":
+        fighter_1 = "Katlyn Cerminara"
+    elif fighter_1 == "Azunna Anyanwu":
+        fighter_1 = "Zu Anyanwu"
+    elif fighter_1 == "Jacare Souza":
+        fighter_1 = "Ronaldo Souza"
+    elif fighter_1 == "Pingyuan Liu":
+        fighter_1 = "Liu Pingyuan"
+    elif fighter_1 == "Bibulatov Magomed":
+        fighter_1 = "Magomed Bibulatov"
+    elif fighter_1 == "Inoue Mizuki":
+        fighter_1 = "Mizuki Inoue"
+    elif fighter_1 == "Joanne Calderwood":
+        fighter_1 = "Joanne Wood"
+    elif fighter_1 == "Weili Zhang":
+        fighter_1 = "Zhang Weili"
+    
+    if fighter_2 == "Marco Polo Reyes":
+        fighter_2 = "Polo Reyes"
+    elif fighter_2 == "Timothy Johnson":
+        fighter_2 = "Tim Johnson"
+    elif fighter_2 == "Katlyn Chookagian":
+        fighter_2 = "Katlyn Cerminara"
+    elif fighter_2 == "Azunna Anyanwu":
+        fighter_2 = "Zu Anyanwu"
+    elif fighter_2 == "Jacare Souza":
+        fighter_2 = "Ronaldo Souza"
+    elif fighter_2 == "Pingyuan Liu":
+        fighter_2 = "Liu Pingyuan"
+    elif fighter_2 == "Bibulatov Magomed":
+        fighter_2 = "Magomed Bibulatov"
+    elif fighter_2 == "Inoue Mizuki":
+        fighter_2 = "Mizuki Inoue"
+    elif fighter_2 == "Joanne Calderwood":
+        fighter_2 = "Joanne Wood"
+    elif fighter_2 == "Weili Zhang":
+        fighter_2 = "Zhang Weili"
+    
     url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
     
     if print:
