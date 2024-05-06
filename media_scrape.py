@@ -36,8 +36,14 @@ def get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=False):
         fighter_1 = "Mizuki Inoue"
     elif fighter_1 == "Joanne Calderwood":
         fighter_1 = "Joanne Wood"
-    elif fighter_1 == "Weili Zhang":
-        fighter_1 = "Zhang Weili"
+    # elif fighter_1 == "Weili Zhang":
+        # fighter_1 = "Zhang Weili"
+    elif fighter_1 == "Loopy Godinez":
+        fighter_1 = "Lupita Godinez"
+    elif fighter_1 == "Grigory Popov":
+        fighter_1 = "Grigorii Popov"
+    elif fighter_1 == "Aleksandra Albu":
+        fighter_1 = "Alexandra Albu"
     
     if fighter_2 == "Marco Polo Reyes":
         fighter_2 = "Polo Reyes"
@@ -57,8 +63,14 @@ def get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=False):
         fighter_2 = "Mizuki Inoue"
     elif fighter_2 == "Joanne Calderwood":
         fighter_2 = "Joanne Wood"
-    elif fighter_2 == "Weili Zhang":
-        fighter_2 = "Zhang Weili"
+    # elif fighter_2 == "Weili Zhang":
+        # fighter_2 = "Zhang Weili"
+    elif fighter_2 == "Loopy Godinez":
+        fighter_2 = "Lupita Godinez"
+    elif fighter_2 == "Grigory Popov":
+        fighter_2 = "Grigorii Popov"
+    elif fighter_2 == "Aleksandra Albu":
+        fighter_2 = "Alexandra Albu"
     
     url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
     
@@ -178,4 +190,4 @@ def main():
     fights_df.to_csv("post_scraping_all_fights_media.csv", index=False)
     
 if __name__ == "__main__":
-    alt_main()
+    main()

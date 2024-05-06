@@ -87,8 +87,14 @@ def process_fight(fighter_1, fighter_2, estimated_fight_id, f1_won, last_id):
         fighter_1 = "Mizuki Inoue"
     elif fighter_1 == "Joanne Calderwood":
         fighter_1 = "Joanne Wood"
-    elif fighter_1 == "Weili Zhang":
-        fighter_1 = "Zhang Weili"
+    # elif fighter_1 == "Weili Zhang":
+        # fighter_1 = "Zhang Weili"
+    elif fighter_1 == "Loopy Godinez":
+        fighter_1 = "Lupita Godinez"
+    elif fighter_1 == "Grigory Popov":
+        fighter_1 = "Grigorii Popov"
+    elif fighter_1 == "Aleksandra Albu":
+        fighter_1 = "Alexandra Albu"
     
     if fighter_2 == "Marco Polo Reyes":
         fighter_2 = "Polo Reyes"
@@ -108,12 +114,18 @@ def process_fight(fighter_1, fighter_2, estimated_fight_id, f1_won, last_id):
         fighter_2 = "Mizuki Inoue"
     elif fighter_2 == "Joanne Calderwood":
         fighter_2 = "Joanne Wood"
-    elif fighter_2 == "Weili Zhang":
-        fighter_2 = "Zhang Weili"
+    # elif fighter_2 == "Weili Zhang":
+        # fighter_2 = "Zhang Weili"
+    elif fighter_2 == "Loopy Godinez":
+        fighter_2 = "Lupita Godinez"
+    elif fighter_2 == "Grigory Popov":
+        fighter_2 = "Grigorii Popov"
+    elif fighter_2 == "Aleksandra Albu":
+        fighter_2 = "Alexandra Albu"
         
     print(f"Starting: {fighter_1} vs {fighter_2}")
     winning_fighter, losing_fighter = (fighter_1, fighter_2) if f1_won == 1 else (fighter_2, fighter_1)
-    for fight_id in range(last_id-40, 11855):
+    for fight_id in range(last_id, last_id+1):
         if fight_id - last_id > 400:
             break
         if (winning_fighter == "Alexander Volkov") and (losing_fighter == "Timothy Johnson"):
@@ -215,20 +227,25 @@ def clean_names(name):
 # Assuming 'practice' is your DataFrame
 # Call the main function and pass your DataFrame
 if __name__ == '__main__':
-    scrape_df = pd.read_csv("zack_scrape.csv")
+    # scrape_df = pd.read_csv("zack_scrape.csv")
+    scrape_df = pd.read_csv("z_still_need_to_scrape.csv")
+    scrape_df.columns = [x.strip() for x in scrape_df.columns]
     
-    last_id = 10820
-    for i in range(100, len(scrape_df), 2):
+    last_id = None
+    # for i in range(100, len(scrape_df), 2):
+    for i, x in enumerate([7420, 7455, 7476, 10363, 10596, 10655, 10984, 11854]):
         found_df = pd.read_csv("zack_found.csv")
-        sub_scrape_df = scrape_df.iloc[i:i+2, :]
+        # sub_scrape_df = scrape_df.iloc[i:i+2, :]
+        sub_scrape_df = scrape_df
         sub_scrape_df['Fight_ID'] = False
+        last_id = x
         fight_data_df, last_id = main(sub_scrape_df, last_id)
         if not fight_data_df.empty:
             print("Data extraction complete. Displaying partial data:")
             print(fight_data_df.head())
             found_df = pd.concat([found_df, fight_data_df])
             for col in found_df.columns:
-                if col not in ('Fight_ID', 'F1_W', 'Judge-1-Score', 'Judge-2-Score', 'Judge-3-Score'):
+                if col not in ('Fight_ID', 'F1_W', 'Judge-1-Score', 'Judge-2-Score', 'Judge-3-Score', 'F1_media_votes', 'F2_media_votes', 'media_votes_draw', 'media_votes_count', 'media_votes_correct'):
                     found_df[col] = found_df[col].str.replace("\xa0", " ").apply(lambda x: clean_names(x))
             found_df.to_csv("zack_found.csv", index=False)
         else:

@@ -58,8 +58,8 @@ def clean_names(name):
         new = "Marco Polo Reyes"
     elif new == "Tim Johnson":
         new = "Timothy Johnson"
-    elif new ==  "Katlyn Cerminara":
-        new ="Katlyn Chookagian"
+    elif new == "Katlyn Cerminara":
+        new = "Katlyn Chookagian"
     elif new == "Zu Anyanwu":
         new = "Azunna Anyanwu"
     elif new == "Ronaldo Souza":
@@ -72,6 +72,14 @@ def clean_names(name):
         new = "Inoue Mizuki"
     elif new == "Joanne Wood":
         new = "Joanne Calderwood"
+        # fighter_2 = "Zhang Weili"
+    #     new = "Weili Zhang":
+    elif new == "Lupita Godinez":
+        new = "Loopy Godinez"
+    elif new == "Grigorii Popov":
+        new = "Grigory Popov"
+    elif new == "Alexandra Albu":
+        new = "Aleksandra Albu"
     elif new == "Zhang Weili":
         new = "Weili Zhang"
     
