@@ -44,6 +44,28 @@ def get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=False):
         fighter_1 = "Grigorii Popov"
     elif fighter_1 == "Aleksandra Albu":
         fighter_1 = "Alexandra Albu"
+    elif fighter_1 == "Matthew Riddle":
+        fighter_1 = "Matt Riddle"
+    elif fighter_1 == "Edimilson Souza":
+        fighter_1 = "Kevin Souza"
+    elif fighter_1 == "Sai Wang":
+        fighter_1 = "Wang Sai"
+    elif fighter_1 == "Zhang Lipeng":
+        fighter_1 = "Lipeng Zhang"
+    elif fighter_1 == "Robert Peralta":
+        fighter_1 = "Robbie Peralta"
+    elif fighter_1 == "Richard Walsh":
+        fighter_1 = "Rich Walsh"
+    elif fighter_1 == "Marcio Alexandre Junior":
+        fighter_1 = "Marcio Alexandre Jr."
+    elif fighter_1 == "David Kaplan":
+        fighter_1 = "Dave Kaplan"
+    elif fighter_1 == "Constantinos Philippou":
+        fighter_1 = "Consta Philippou"
+    elif fighter_1 == "John Teixeira":
+        fighter_1 = "John Macapa"
+    elif fighter_1 == "Tiago dos Santos e Silva":
+        fighter_1 = "Tiago Trator"
     
     if fighter_2 == "Marco Polo Reyes":
         fighter_2 = "Polo Reyes"
@@ -71,6 +93,28 @@ def get_media_scores(fighter_1, fighter_2, f1_w, fight_id, show=False):
         fighter_2 = "Grigorii Popov"
     elif fighter_2 == "Aleksandra Albu":
         fighter_2 = "Alexandra Albu"
+    elif fighter_2 == "Matthew Riddle":
+        fighter_2 = "Matt Riddle"
+    elif fighter_2 == "Edimilson Souza":
+        fighter_2 = "Kevin Souza"
+    elif fighter_2 == "Sai Wang":
+        fighter_2 = "Wang Sai"
+    elif fighter_2 == "Zhang Lipeng":
+        fighter_2 = "Lipeng Zhang"
+    elif fighter_2 == "Robert Peralta":
+        fighter_2 = "Robbie Peralta"
+    elif fighter_2 == "Richard Walsh":
+        fighter_2 = "Rich Walsh"
+    elif fighter_2 == "Marcio Alexandre Junior":
+        fighter_2 = "Marcio Alexandre Jr."
+    elif fighter_2 == "David Kaplan":
+        fighter_2 = "Dave Kaplan"
+    elif fighter_2 == "Constantinos Philippou":
+        fighter_2 = "Consta Philippou"
+    elif fighter_2 == "John Teixeira":
+        fighter_2 = "John Macapa"
+    elif fighter_2 == "Tiago dos Santos e Silva":
+        fighter_2 = "Tiago Trator"
     
     url = f"http://mmadecisions.com/decision/{fight_id}/{fighter_1.replace(' ', '-') if f1_w == 1 else fighter_2.replace(' ', '-')}-vs-{fighter_1.replace(' ', '-') if f1_w == 0 else fighter_2.replace(' ', '-')}"
     

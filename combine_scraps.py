@@ -54,49 +54,69 @@ def clean_names(name):
     new = new.strip().title()
 
     # have to invert custom-changed names for the found fights since MMA decisions.com has them different
-    if new == "Polo Reyes":
-        new = "Marco Polo Reyes"
-    elif new == "Tim Johnson":
-        new = "Timothy Johnson"
-    elif new == "Katlyn Cerminara":
-        new = "Katlyn Chookagian"
-    elif new == "Zu Anyanwu":
-        new = "Azunna Anyanwu"
-    elif new == "Ronaldo Souza":
-        new = "Jacare Souza"
-    elif new == "Liu Pingyuan":
-        new = "Pingyuan Liu"
-    elif new == "Magomed Bibulatov":
-        new = "Bibulatov Magomed"
-    elif new == "Mizuki Inoue":
-        new = "Inoue Mizuki"
-    elif new == "Joanne Wood":
-        new = "Joanne Calderwood"
-        # fighter_2 = "Zhang Weili"
-    #     new = "Weili Zhang":
-    elif new == "Lupita Godinez":
-        new = "Loopy Godinez"
-    elif new == "Grigorii Popov":
-        new = "Grigory Popov"
-    elif new == "Alexandra Albu":
-        new = "Aleksandra Albu"
-    elif new == "Zhang Weili":
-        new = "Weili Zhang"
+    if new == "Marco Polo Reyes":
+        new = "Polo Reyes"
+    elif new == "Timothy Johnson":
+        new = "Tim Johnson"
+    elif new == "Katlyn Chookagian":
+        new = "Katlyn Cerminara"
+    elif new == "Azunna Anyanwu":
+        new = "Zu Anyanwu"
+    elif new == "Jacare Souza":
+        new = "Ronaldo Souza"
+    elif new == "Pingyuan Liu":
+        new = "Liu Pingyuan"
+    elif new == "Bibulatov Magomed":
+        new = "Magomed Bibulatov"
+    elif new == "Inoue Mizuki":
+        new = "Mizuki Inoue"
+    elif new == "Joanne Calderwood":
+        new = "Joanne Wood"
+    # elif new == "Weili Zhang":
+        # new = "Zhang Weili"
+    elif new == "Loopy Godinez":
+        new = "Lupita Godinez"
+    elif new == "Grigory Popov":
+        new = "Grigorii Popov"
+    elif new == "Aleksandra Albu":
+        new = "Alexandra Albu"
+    elif new == "Matt Riddle":
+        new = "Matthew Riddle"
+    elif new == "Kevin Souza":
+        new = "Edimilson Souza"
+    elif new == "Wang Sai":
+        new = "Sai Wang"
+    elif new == "Lipeng Zhang":
+        new = "Zhang Lipeng"
+    elif new == "Robbie Peralta":
+        new = "Robert Peralta"
+    elif new == "Rich Walsh":
+        new = "Richard Walsh"
+    elif new == "Marcio Alexandre Jr.":
+        new = "Marcio Alexandre Junior"
+    elif new == "Dave Kaplan":
+        new = "David Kaplan"
+    elif new == "Consta Philippou":
+        new = "Constantinos Philippou"
+    elif new == "John Macapa":
+        new = "John Teixeira"
+    elif new == "Tiago Trator":
+        new = "Tiago dos Santos e Silva"
     
     return new
 
 all_fights = pd.read_csv("final_fight_scraping_df.csv")
 found_fights = pd.read_csv("found_fights.csv")
 zack_fights = pd.read_csv("zack_found.csv")
-# ethan_fights = pd.read_csv("")
+ethan_fights = pd.read_csv("ethan_found.csv")
 
 print(f"{found_fights.shape=}")
 print(f"{zack_fights.shape=}")
-# print(f"{ethan_fights.shape=}")
+print(f"{ethan_fights.shape=}")
 print(f"{all_fights.shape=}")
 print()
 
-scraped_dfs = [zack_fights]  #add ethan_fights here once he has his
+scraped_dfs = [zack_fights, ethan_fights]  #add ethan_fights here once he has his
 
 for df in scraped_dfs:
     print(f"{list(found_fights.columns)=}")
@@ -105,7 +125,6 @@ for df in scraped_dfs:
     print(f"{found_fights.shape=}")
     print()
 print(f"\nJOINING ALL_FIGHTS & FOUND_FIGHTS\n")
-
 
 left_cols = ["Fighter_1", "Fighter_2"]
 if 'Fight_ID' in all_fights.columns:
@@ -141,17 +160,19 @@ joined_df = all_fights.merge(right=found_fights,
                              how="left")
 print(joined_df.info())
 
+print(joined_df.loc[joined_df['found'] == False])
 found_fights = joined_df.loc[joined_df['found'] == True]
 found_fights = found_fights.sort_values('Date')
 found_fights = found_fights.drop(labels=['F1_W_y', 
-                                           'Judge-1-Name_x', 'F1_Judge-1-Score', 'F2_Judge-1-Score',
-                                           'Judge-2-Name_x', 'F1_Judge-2-Score', 'F2_Judge-2-Score',
-                                           'Judge-3-Name_x', 'F1_Judge-3-Score', 'F2_Judge-3-Score',
-                                           'found'], axis=1)
+                                         'Judge-1-Name_x', 'F1_Judge-1-Score', 'F2_Judge-1-Score',
+                                         'Judge-2-Name_x', 'F1_Judge-2-Score', 'F2_Judge-2-Score',
+                                         'Judge-3-Name_x', 'F1_Judge-3-Score', 'F2_Judge-3-Score',
+                                         'found'], axis=1)
 found_fights = found_fights.rename(columns={'F1_W_x': 'F1_W',
-                                              'Judge-1-Name_y': 'Judge-1-Name',
-                                              'Judge-2-Name_y': 'Judge-2-Name',
-                                              'Judge-3-Name_y': 'Judge-3-Name'})
+                                            'Judge-1-Name_y': 'Judge-1-Name',
+                                            'Judge-2-Name_y': 'Judge-2-Name',
+                                            'Judge-3-Name_y': 'Judge-3-Name'})
+
 found_fights['Fight_ID'] = found_fights['Fight_ID'].astype(int)
 print(found_fights.info())
 
