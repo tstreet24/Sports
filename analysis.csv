@@ -1,0 +1,551 @@
+,Fighter_1,Fighter_2,F1_W,F1_W_media,Judge-1-Name,Judge-2-Name,Judge-3-Name,Judge-1-Score,Judge-2-Score,Judge-3-Score,Judge-1-Agreement,Judge-2-Agreement,Judge-3-Agreement,Cluster,media_Agreement,Judge-1-Agreement_media,Judge-2-Agreement_media,Judge-3-Agreement_media
+0,Hermes Franca,Yves Edwards,0,1,Cecil Peoples,Dalby Shirley,Tony Weeks,29-28,29-28,28-29,1,1,0,1,0,0,0,1
+1,Karo Parisyan,Nick Diaz,1,1,Cecil Peoples,Marcos Rosales,Dalby Shirley,29-28,30-27,28-29,1,1,0,4,1,1,1,0
+2,Tito Ortiz,Vitor Belfort,1,1,Nelson Hamilton,Jeff Mullen,Cecil Peoples,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+3,Chris Leben,Patrick Cote,1,1,Jon Schorle,Dalby Shirley,Roy Silbert,29-28,30-27,27-29,1,1,0,4,1,1,1,0
+4,Brad Imes,Rashad Evans,0,0,Abe Belardo,Nelson Hamilton,Tony Weeks,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+5,Bj Penn,Georges St-Pierre,0,0,Nelson Hamilton,Cecil Peoples,Marcos Rosales,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+6,Sam Stout,Spencer Fisher,1,0,Chris Lee,Mike Ross,Tim Vannatta,30-27,30-27,30-27,1,1,1,5,0,0,0,0
+7,Rashad Evans,Sam Hoger,1,1,Raul Porrata,Marcos Rosales,Glenn Trowbridge,28-29,30-27,29-28,0,1,1,4,1,0,1,1
+8,Jeff Monson,Marcio Cruz,1,0,Abe Belardo,Hector Hernandez,Alejandro Rochin,30-27,29-28,28-29,1,1,0,4,0,0,0,1
+9,Forrest Griffin,Tito Ortiz,0,0,Abe Belardo,Hector Hernandez,Cecil Peoples,30-27,28-29,29-27,1,0,1,2,1,1,0,1
+10,Forrest Griffin,Tito Ortiz,0,1,Lester Griffin,Marcos Rosales,Glenn Trowbridge,30-27,29-28,28-29,1,1,0,2,0,0,0,1
+11,Danny Abbadi,Jorge Gurgel,0,1,Nelson Hamilton,Cecil Peoples,Alejandro Rochin,29-28,29-28,29-28,1,1,1,3,0,0,0,0
+12,Carmelo Marrero,Cheick Kongo,1,1,Lester Griffin,Nelson Hamilton,Tony Weeks,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+13,Chris Lytle,Matt Serra,0,1,Lester Griffin,Marcos Rosales,Glenn Trowbridge,30-27,30-27,27-30,1,1,0,2,0,0,0,1
+14,David Heath,Victor Valimaki,1,1,Nelson Hamilton,Cecil Peoples,Alejandro Rochin,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+15,Clay Guida,Tyson Griffin,0,0,Douglas Crosby,Jeff Mullen,Andy Roberts,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+16,Clay Guida,Marcus Aurelio,1,1,Adalaide Byrd,Jeff Collins,Patricia Morse Jarman,28-29,30-27,30-27,0,1,1,3,1,0,1,1
+17,Matt Hamill,Michael Bisping,0,0,Jeff Mullen,Cecil Peoples,Chris Watts,29-28,29-28,27-30,1,1,0,1,1,1,1,0
+18,Diego Sanchez,Jon Fitch,0,0,Richard Bertrand,Cecil Peoples,Marcos Rosales,29-28,30-27,28-29,1,1,0,4,1,1,1,0
+19,Chuck Liddell,Keith Jardine,0,0,Richard Bertrand,Cecil Peoples,Marcos Rosales,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+20,Jason Black,Matt Grice,0,0,Nelson Hamilton,John Kloock,Jeff Mullen,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+21,Michael Bisping,Rashad Evans,0,0,Romulo Bittencourt,Eric Colón,Douglas Crosby,28-29,29-28,29-28,0,1,1,2,1,0,1,1
+22,Keita Nakamura,Rob Emerson,0,0,Adalaide Byrd,Jeff Collins,Al Lefkowitz,30-27,28-29,30-27,1,0,1,3,1,1,0,1
+23,Cheick Kongo,Heath Herring,0,0,Todd Agosta,Nelson Hamilton,Cecil Peoples,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+24,Rich Clementi,Sam Stout,1,1,Douglas Crosby,Sylvain LeBlanc,Pasquale Procopio,29-27,28-29,29-28,1,0,1,4,1,1,0,1
+25,Jess Liaudin,Paul Taylor,0,1,Barry Foley,Jeff Mullen,Andy Roberts,28-29,29-28,29-28,0,1,1,1,0,1,0,0
+26,Nate Marquardt,Thales Leites,0,0,Nelson Hamilton,Cecil Peoples,Chris Watts,28-27,28-27,27-28,1,1,0,1,1,1,1,0
+27,Evan Tanner,Kendall Grove,0,0,Al Lefkowitz,Marcos Rosales,Glenn Trowbridge,28-29,30-26,30-26,0,1,1,1,1,0,1,1
+28,Patrick Cote,Ricardo Almeida,1,1,Patricia Morse Jarman,Glenn Trowbridge,Tony Weeks,29-28,28-29,29-28,1,0,1,5,1,1,0,1
+29,Dong Hyun Kim,Matt Brown,1,1,Douglas Crosby,Tony Mullinax,Cecil Peoples,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+30,Roan Carneiro,Ryo Chonan,0,1,Douglas Crosby,Chris Lee,Tony Mullinax,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+31,Josh Neer,Nate Diaz,0,0,Douglas Crosby,Jeff Mullen,Cecil Peoples,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+32,Alan Belcher,Ed Herman,1,0,Douglas Crosby,Cecil Peoples,Jeff Sinnett,29-28,29-28,29-28,1,1,1,5,0,0,0,0
+33,Akihiro Gono,Dan Hardy,0,0,Chris Lee,Andy Roberts,Tim Vannatta,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+34,Brandon Vera,Keith Jardine,0,0,Chris Lee,Tim Vannatta,Chris Watts,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+35,George Roop,Shane Nelson,0,0,Adalaide Byrd,Al Lefkowitz,Marcos Rosales,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+36,Chris Lytle,Marcus Davis,0,0,Chris Lee,Andy Roberts,Tim Vannatta,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+37,Dan Henderson,Rich Franklin,1,1,Chris Lee,Tim Vannatta,Chris Watts,29-28,29-28,27-30,1,1,0,4,1,1,1,0
+38,Clay Guida,Nate Diaz,1,1,Nelson Hamilton,Patricia Morse Jarman,Roy Silbert,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+39,Chris Wilson,John Howard,0,0,Patricia Morse Jarman,Cecil Peoples,Roy Silbert,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+40,Dan Cramer,Matt Arroyo,1,1,Douglas Crosby,Patricia Morse Jarman,Roy Silbert,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+41,Christian Wellisch,Jake O'Brien,0,0,Nelson Hamilton,Cecil Peoples,Marcos Rosales,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+42,Carlos Condit,Martin Kampmann,0,0,Douglas Crosby,Nelson Hamilton,Cecil Peoples,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+43,Ryo Chonan,Tj Grant,0,0,Nelson Hamilton,Claude Paquette,Cecil Peoples,30-27,29-28,28-29,1,1,0,4,1,1,1,0
+44,Dave Kaplan,George Roop,0,1,Sal D'Amato,Lester Griffin,Tony Weeks,30-27,30-27,28-29,1,1,0,1,0,0,0,1
+45,Dan Hardy,Marcus Davis,1,1,Douglas Crosby,Andy Roberts,Tony Weeks,29-28,28-29,29-28,1,0,1,5,1,1,0,1
+46,Gleison Tibau,Melvin Guillard,0,1,Dave Hagen,Nelson Hamilton,Glenn Trowbridge,29-28,28-29,29-28,1,0,1,1,0,0,1,0
+47,Brad Blackburn,Edgar Garcia,1,0,Adalaide Byrd,Patricia Morse Jarman,Tony Weeks,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+48,Clay Guida,Diego Sanchez,0,0,Nelson Hamilton,Patricia Morse Jarman,Glenn Trowbridge,29-28,28-29,29-27,1,0,1,1,1,1,0,1
+49,Alan Belcher,Yoshihiro Akiyama,0,0,Adalaide Byrd,Douglas Crosby,Patricia Morse Jarman,30-27,28-29,29-28,1,0,1,3,1,1,0,1
+50,Alessio Sakara,Thales Leites,1,0,Jeff Blatnick,Nelson Hamilton,Cardo Urso,29-28,29-28,27-30,1,1,0,5,0,0,0,1
+51,John Howard,Tamdan Mccrory,1,0,Douglas Crosby,Brad Duruttya,Cardo Urso,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+52,Mark Munoz,Nick Catone,1,0,Ken Barringer,Marcos Rosales,Glenn Trowbridge,28-29,30-27,29-28,0,1,1,4,0,1,0,0
+53,Evan Dunham,Marcus Aurelio,1,1,Lester Griffin,Nelson Hamilton,Jana Richmond,30-27,29-28,28-29,1,1,0,5,1,1,1,0
+54,Gray Maynard,Roger Huerta,1,1,Chris Lee,Cecil Peoples,Glenn Trowbridge,28-29,30-27,30-27,0,1,1,4,1,0,1,1
+55,Carlos Condit,Jake Ellenberger,1,0,Sal D'Amato,Chris Lee,Cecil Peoples,29-28,29-28,28-29,1,1,0,5,0,0,0,1
+56,Eliot Marshall,Jason Brilz,1,0,Kent Basinger,Chris Lee,Cecil Peoples,30-27,27-30,30-27,1,0,1,5,0,0,1,0
+57,Kyle Kingsbury,Razak Al-Hassan,1,1,Nelson Hamilton,Cecil Peoples,Susan Thomas-Gitlin,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+58,Forrest Griffin,Tito Ortiz,1,0,Abe Belardo,Hector Hernandez,Cecil Peoples,30-27,28-29,29-27,1,0,1,5,0,0,1,0
+59,Forrest Griffin,Tito Ortiz,1,1,Lester Griffin,Marcos Rosales,Glenn Trowbridge,30-27,29-28,28-29,1,1,0,5,1,1,1,0
+60,Jon Madsen,Justin Wren,1,0,Adalaide Byrd,Sal D'Amato,Glenn Trowbridge,30-27,28-29,29-28,1,0,1,4,0,0,1,0
+61,Aaron Simpson,Tom Lawlor,1,1,Jeff Blatnick,Eric Colon,Sal D'Amato,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+62,Jesse Lennox,Rick Story,0,0,Jeff Blatnick,Eric Colon,Cardo Urso,30-27,28-29,30-27,1,0,1,3,1,1,0,1
+63,Jesse Forbes,Nick Catone,0,0,Douglas Crosby,Sal D'Amato,Clark Walters,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+64,Gray Maynard,Nate Diaz,1,0,Douglas Crosby,Sal D'Amato,Cardo Urso,30-27,28-29,29-28,1,0,1,3,0,0,1,0
+65,Nick Osipczak,Rick Story,0,1,Sal D'Amato,Howard Hughes,Andy Roberts,29-28,29-28,28-29,1,1,0,2,0,0,0,1
+66,Jeremy Stephens,Sam Stout,1,1,Pasquale Procopio,David Therien,Tony Weeks,30-27,29-28,28-29,1,1,0,3,1,1,1,0
+67,Jason Brilz,Rogerio Nogueira,0,1,Patricia Morse Jarman,Marcos Rosales,Tony Weeks,28-29,29-28,29-28,0,1,1,1,0,1,0,0
+68,Evan Dunham,Tyson Griffin,1,1,Chris Franco,Lance Gibson,Tony Weeks,30-27,29-28,28-29,1,1,0,4,1,1,1,0
+69,Goran Reljic,Kendall Grove,0,0,Patricia Morse Jarman,Cecil Peoples,Roy Silbert,28-29,29-28,30-27,0,1,1,1,1,0,1,1
+70,Daniel Roberts,Forrest Petz,1,1,Patricia Morse Jarman,Roy Silbert,Tony Weeks,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+71,Mark Munoz,Yushin Okami,0,0,Luis Cobian,Lester Griffin,Cecil Peoples,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+72,Jeremy Stephens,Melvin Guillard,0,1,Kelvin Caldwell,Sal D'Amato,Otto Torriero,28-29,29-28,30-27,0,1,1,3,0,1,0,0
+73,Steve Lopez,Waylon Lowe,0,0,Cecil Peoples,Dave Stone,Otto Torriero,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+74,Evan Dunham,Sean Sherk,0,1,Kelvin Caldwell,Cecil Peoples,Glenn Trowbridge,28-29,29-28,29-28,0,1,1,2,0,1,0,0
+75,Jake Shields,Martin Kampmann,1,1,Nelson Hamilton,Unknown Judge,Unknown Judge,30-27,29-28,28-29,1,1,0,4,1,1,1,0
+76,Chris Camozzi,Dongi Yang,1,1,Nelson Hamilton,Larry Landless,Cecil Peoples,29-28,28-29,29-28,1,0,1,5,1,1,0,1
+77,Paul Taylor,Sam Stout,0,1,Mike Beltran,Larry Landless,Cecil Peoples,29-28,28-29,30-27,1,0,1,0,0,0,1,0
+78,Duane Ludwig,Nick Osipczak,1,0,Richard Bertrand,Howard Hughes,Chris Watts,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+79,Lyoto Machida,Quinton Jackson,0,1,Jeff Blatnick,Sal D'Amato,Nelson Hamilton,29-28,29-28,28-29,1,1,0,4,0,0,0,1
+80,Nik Lentz,Tyson Griffin,1,0,Jeff Blatnick,Sal D'Amato,Nelson Hamilton,29-28,29-28,27-30,1,1,0,5,0,0,0,1
+81,Leonard Garcia,Nam Phan,1,0,Adalaide Byrd,Junichiro Kamijo,Tony Weeks,29-28,27-30,29-28,1,0,1,0,0,0,1,0
+82,Dan Miller,Joe Doerksen,1,1,Sal D'Amato,Richard DeCarufel,Tony Weeks,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+83,Diego Nunes,Mike Brown,1,1,Lester Griffin,Patricia Morse Jarman,Glenn Trowbridge,28-29,29-28,29-28,0,1,1,5,1,0,1,1
+84,Antonio Mckee,Jacob Volkmann,0,0,Junichiro Kamijo,Glenn Trowbridge,Tony Weeks,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+85,Carlos Eduardo Rocha,Jake Ellenberger,0,0,Abe Belardo,Adalaide Byrd,Junichiro Kamijo,29-28,27-30,29-28,1,0,1,4,1,1,0,1
+86,Reuben Duran,Takeya Mizugaki,0,0,Jeff Blatnick,William Mattingly,Andrew Tomazik,29-28,30-27,27-30,1,1,0,2,1,1,1,0
+87,Gleison Tibau,Kurt Pellegrino,1,0,Douglas Crosby,Tony Tamburrino,Cardo Urso,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+88,John Hathaway,Kris Mccray,1,1,Randy Corley,Sal D'Amato,Lester Griffin,29-28,29-28,28-29,1,1,0,5,1,1,1,0
+89,Chris Cariaso,Michael Mcdonald,0,0,Adalaide Byrd,Glenn Trowbridge,Tony Weeks,29-28,29-28,27-30,1,1,0,4,1,1,1,0
+90,Clay Harvison,Justin Edwards,1,0,Douglas Crosby,Sal D'Amato,Glenn Trowbridge,28-29,29-28,29-28,0,1,1,5,0,1,0,0
+91,Consta Philippou,Jorge Rivera,1,1,Brad Duruttya,Ray Martin,Cardo Urso,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+92,Johny Hendricks,Mike Pierce,1,0,Wilfredo Cintron,Douglas Crosby,Kings Kao,29-28,28-29,29-28,1,0,1,3,0,0,1,0
+93,Edson Barboza,Ross Pearson,1,0,Chris Lee,Andy Roberts,Paul Sutherland,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+94,Ian Loveland,Yves Jabouin,0,0,Douglas Crosby,Chris Lee,Andy Roberts,29-28,29-28,27-30,1,1,0,4,1,1,1,0
+95,Anthony Pettis,Jeremy Stephens,1,1,Douglas Crosby,Danny Dealejandro,Charles Phillips,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+96,George Roop,Hatsu Hioki,0,1,Dave Hagen,Patricia Morse Jarman,Cecil Peoples,28-29,29-28,29-28,0,1,1,2,0,1,0,0
+97,Chris Cariaso,Vaughan Lee,1,1,Mark Collett,Chris Watts,Rick Winter,29-28,29-28,28-29,1,1,0,5,1,1,1,0
+98,Mike Pierce,Paul Bradley,1,1,Luis Cobian,Lester Griffin,Nelson Hamilton,29-28,28-29,30-27,1,0,1,3,1,1,0,1
+99,Martin Kampmann,Rick Story,1,1,Steve English,Steve Morrow,Susan Thomas-Gitlin,30-27,29-28,28-29,1,1,0,4,1,1,1,0
+100,Gleison Tibau,Rafael Dos Anjos,1,1,Steve English,Steve Morrow,Susan Thomas-Gitlin,28-29,29-28,30-27,0,1,1,4,1,0,1,1
+101,Walel Watson,Yves Jabouin,0,0,Nelson Hamilton,Dr. Greg Jackson,David Therien,30-27,28-29,29-28,1,0,1,2,1,1,0,1
+102,Brian Ebersole,Claude Patrick,1,0,Richard Bertrand,Sal D'Amato,Nelson Hamilton,29-28,29-28,28-29,1,1,0,4,0,0,0,1
+103,Anthony Njokuani,Danny Castillo,0,0,Douglas Crosby,Patricia Morse Jarman,Mark Smith,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+104,Alex Caceres,Edwin Figueroa,0,1,Sal D'Amato,Chris Lee,Glenn Trowbridge,28-27,27-28,28-27,1,0,1,1,0,0,1,0
+105,Henry Martinez,Matt Riddle,0,1,Junichiro Kamijo,Chris Lee,Cecil Peoples,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+106,Josh Koscheck,Mike Pierce,1,0,Jeff Collins,Sal D'Amato,Junichiro Kamijo,29-28,29-28,28-29,1,1,0,4,0,0,0,1
+107,Aaron Simpson,Ronny Markes,0,0,Sal D'Amato,Steve Garrean,Glenn Trowbridge,28-29,29-28,29-28,0,1,1,2,1,0,1,1
+108,Chris Clements,Keith Wisniewski,1,1,Derek Cleary,Ken Coffey,Cardo Urso,29-28,28-29,30-27,1,0,1,5,1,1,0,1
+109,Marcus Brimage,Maximo Blanco,1,1,Richard Bertrand,Chris Lee,Anthony Maness,30-27,29-28,28-29,1,1,0,4,1,1,1,0
+110,Eddie Yagin,Mark Hominick,1,1,Chris Lee,Anthony Maness,Cardo Urso,29-28,29-28,28-29,1,1,0,0,1,1,1,0
+111,Johny Hendricks,Josh Koscheck,1,1,Ricardo Almeida,Jeff Blatnick,Cardo Urso,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+112,Amir Sadollah,Jorge Lopez,1,0,Jeff Blatnick,Sal D'Amato,Cardo Urso,28-29,29-28,29-28,0,1,1,5,0,1,0,0
+113,Bernardo Magalhaes,Henry Martinez,0,0,Ric Bays,Richard Davis,Chris Lee,28-29,29-28,30-27,0,1,1,4,1,0,1,1
+114,Lance Benoist,Seth Baczynski,0,0,Hector Gomez,Rich Green,Barry Luxenberg,29-28,29-28,27-30,1,1,0,4,1,1,1,0
+115,Clay Guida,Gray Maynard,0,1,Eric Colon,Sue Sanidad,Jose Tabora,48-47,48-47,47-48,1,1,0,3,0,0,0,1
+116,Dustin Pague,Ken Stone,0,1,Jon Bilyk,Henry Krawiec,Carlos Rodriguez,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+117,Hugo Viana,John Macapa,1,1,Mark Collett,Howard Hughes,Rick Winter,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+118,Dan Stittgen,Marcelo Guimaraes,0,0,Ray Balewicz,Steve Morrow,Susan Thomas-Gitlin,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+119,Anton Kuivanen,Mitch Clarke,1,1,Richard Bertrand,Jeff Blatnick,Sal D'Amato,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+120,Brian Ebersole,James Head,0,0,Jeff Blatnick,Sal D'Amato,Chris Lee,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+121,Hector Lombard,Tim Boetsch,0,1,Richard Bertrand,Sal D'Amato,Chris Lee,28-29,29-28,29-28,0,1,1,4,0,1,0,0
+122,Cole Miller,Nam Phan,0,0,Mike Beltran,Lester Griffin,Cecil Peoples,29-28,28-29,29-28,1,0,1,0,1,1,0,1
+123,Benson Henderson,Frankie Edgar,1,0,Dave Hagen,Mark Van Tine,Tony Weeks,48-47,48-47,46-49,1,1,0,3,0,0,0,1
+124,Demetrious Johnson,Joseph Benavidez,1,1,Richard Bertrand,Jeff Blatnick,Douglas Crosby,47-48,48-47,49-46,0,1,1,3,1,0,1,1
+125,Brad Tavares,Tom Watson,1,1,Douglas Crosby,Howard Hughes,Chris Watts,28-29,30-27,29-28,0,1,1,4,1,0,1,1
+126,Akira Corassani,Andy Ogle,1,0,Aaron Chatfield,Mark Collett,Chris Watts,29-28,27-30,29-28,1,0,1,5,0,0,1,0
+127,Carlo Prater,Marcus Levesseur,0,1,Sal D'Amato,Andy Kemp,Chris Lee,29-28,29-28,28-29,1,1,0,2,0,0,0,1
+128,Cristiano Marcello,Reza Madadi,1,0,Romulo Bittencourt,Aaron Chatfield,Cardo Urso,29-28,30-27,28-29,1,1,0,3,0,0,0,1
+129,Alex Caceres,Motonobu Tezuka,1,1,Aaron Chatfield,Mark Collett,Bass Singh,30-27,30-27,28-29,1,1,0,5,1,1,1,0
+130,Mac Danzig,Takanori Gomi,0,0,Aaron Chatfield,Mark Collett,Chris Watts,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+131,Antonio Carvalho,Rodrigo Damm,1,1,Cardo Urso,Tony Weeks,John Woodburn,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+132,Francis Carmont,Tom Lawlor,1,0,Sal D'Amato,Cardo Urso,Tony Weeks,28-29,29-28,29-28,0,1,1,5,0,1,0,0
+133,Brad Pickett,Eddie Wineland,0,0,Mark Smith,Glenn Trowbridge,Tony Weeks,28-29,30-27,30-27,0,1,1,0,1,0,1,1
+134,Leonard Garcia,Max Holloway,0,1,Cecil Peoples,Marcos Rosales,Mark Smith,29-28,29-28,28-29,1,1,0,0,0,0,0,1
+135,Jamie Varner,Melvin Guillard,1,1,Adalaide Byrd,Cecil Peoples,Mark Smith,27-30,30-27,30-27,0,1,1,4,1,0,1,1
+136,Cb Dollaway,Daniel Sarafian,1,1,Mark Collett,Howard Hughes,Chris Lee,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+137,Godofredo Pepey,Milton Vieira,1,0,Mark Collett,Sal D'Amato,Howard Hughes,29-28,29-28,28-29,1,1,0,5,0,0,0,1
+138,Clay Guida,Hatsu Hioki,1,0,Sal D'Amato,Gabriel Sabaitis,Rick Winter,29-28,30-27,28-29,1,1,0,4,0,0,0,1
+139,Isaac Vallie-Flagg,Yves Edwards,1,1,Junichiro Kamijo,Patricia Morse Jarman,Mark Smith,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+140,Evan Dunham,Gleison Tibau,1,1,Jeff Collins,Sal D'Amato,Junichiro Kamijo,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+141,Caros Fodor,Sam Stout,0,0,Mike Beltran,Derek Cleary,Cecil Peoples,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+142,Dennis Bermudez,Matt Grice,1,0,Michael Bell,Mike Beltran,Wade Vierra,29-28,29-28,28-29,1,1,0,0,0,0,0,1
+143,Dan Henderson,Lyoto Machida,0,0,Michael Bell,Derek Cleary,Cecil Peoples,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+144,Bryan Caraway,Takeya Mizugaki,0,0,Ben Cartlidge,Junichiro Kamijo,Chris Watts,28-29,29-28,29-28,0,1,1,1,1,0,1,1
+145,Diego Sanchez,Takanori Gomi,1,0,Ben Cartlidge,Barry Foley,Chris Watts,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+146,Hector Lombard,Yushin Okami,0,0,Barry Foley,Junichiro Kamijo,Charlie Keech,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+147,Chris Camozzi,Nick Ring,1,1,Richard Bertrand,Sal D'Amato,Benoit Roussel,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+148,Brad Pickett,Mike Easton,1,1,Mark Collett,Howard Hughes,Andreas Ramsby,30-27,30-27,28-29,1,1,0,3,1,1,1,0
+149,Besam Yousef,Papy Abedi,0,1,Jim Bergman,Howard Hughes,Andreas Ramsby,29-28,29-28,28-29,1,1,0,2,0,0,0,1
+150,Kelvin Gastelum,Uriah Hall,1,1,Adalaide Byrd,Sal D'Amato,Junichiro Kamijo,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+151,Benson Henderson,Gilbert Melendez,1,1,Michael Bell,Derek Cleary,Wade Vierra,48-47,48-47,47-48,1,1,0,3,1,1,1,0
+152,Dennis Bermudez,Max Holloway,1,0,Lester Griffin,Mark Smith,Tony Weeks,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+153,Mike Pyle,Rick Story,1,0,Dave Hagen,Junichiro Kamijo,Chris Lee,29-28,29-28,28-29,1,1,0,5,0,0,0,1
+154,Mizuto Hirota,Rodrigo Damm,0,0,Mark Collett,Glenn Trowbridge,Dean Weir,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+155,Dustin Pague,Yves Jabouin,0,1,Dr. Greg Jackson,Jason Rodgers,Sal Signorino,28-29,29-28,29-28,0,1,1,4,0,1,0,0
+156,Jake Shields,Tyron Woodley,1,1,Richard Bertrand,Sal D'Amato,Chris Lee,29-28,29-28,27-30,1,1,0,3,1,1,1,0
+157,Dan Henderson,Rashad Evans,0,0,Sal D'Amato,Dr. Greg Jackson,Chris Lee,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+158,Andrew Craig,Chris Leben,1,1,Junichiro Kamijo,Marcos Rosales,Mark Smith,29-28,30-27,28-29,1,1,0,5,1,1,1,0
+159,Ed Herman,Trevor Smith,1,1,Sal D'Amato,Lester Griffin,Chris Lee,27-30,29-28,30-27,0,1,1,3,1,0,1,1
+160,Aaron Riley,Justin Salas,0,0,Sal D'Amato,Chris Lee,Lamont Nelson,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+161,Germaine De Randamie,Julie Kedzie,1,1,Terry Boehlke,Lester Griffin,Lamont Nelson,30-27,28-29,29-28,1,0,1,5,1,1,0,1
+162,Daron Cruickshank,Yves Edwards,1,0,Terry Boehlke,Lester Griffin,Glenn Hamada,27-30,30-27,30-27,0,1,1,3,0,1,0,0
+163,John Howard,Uriah Hall,1,1,Douglas Crosby,Steve Rita,Ryan Shea,29-28,28-29,30-27,1,0,1,4,1,1,0,1
+164,Court Mcgee,Robert Whittaker,1,1,Kelvin Caldwell,Sal D'Amato,Robert Madrigal,27-30,30-27,29-28,0,1,1,3,1,0,1,1
+165,Erik Perez,Takeya Mizugaki,0,0,Kelvin Caldwell,David Hinkel,Glenn Trowbridge,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+166,Gleison Tibau,Jamie Varner,1,1,Sal D'Amato,Brian Puccillo,Otto Torriero,29-28,29-28,27-29,1,1,0,4,1,1,1,0
+167,Sean Spencer,Yuri Villefort,1,1,Guilherme Bravo,Ben Cartlidge,Howard Hughes,30-27,29-28,28-29,1,1,0,0,1,1,1,0
+168,Kevin Souza,Felipe Arantes,1,1,Howard Hughes,Roy Silbert,Glenn Trowbridge,28-29,29-28,29-28,0,1,1,5,1,0,1,1
+169,Alex Caceres,Roland Delorme,1,1,Brian Beauchamp,Graham Bettes,Benoit Roussel,28-29,29-28,29-28,0,1,1,5,1,0,1,1
+170,Mike Ricci,Myles Jury,0,0,Richard Bertrand,Douglas Crosby,Chris Lee,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+171,Jesse Ronson,Michel Prazeres,0,0,Brian Beauchamp,Graham Bettes,Benoit Roussel,28-29,29-28,29-28,0,1,1,2,1,0,1,1
+172,Demian Maia,Jake Shields,0,0,Richard Bertrand,Guilherme Bravo,Sal D'Amato,48-47,47-48,48-47,1,0,1,2,1,1,0,1
+173,Fabio Maldonado,Joey Beltran,1,0,Richard Bertrand,Guilherme Bravo,Sal D'Amato,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+174,Raphael Assuncao,Tj Dillashaw,1,0,Richard Bertrand,Sal D'Amato,Brian Puccillo,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+175,Cb Dollaway,Tim Boetsch,0,0,Gino Garcia,Ruben Najera,Jon Schorle,27-29,30-26,30-26,0,1,1,1,1,0,1,1
+176,Cezar Ferreira,Daniel Sarafian,1,1,Douglas Crosby,Marcos Rosales,Otto Torriero,30-28,28-29,30-27,1,0,1,4,1,1,0,1
+177,Robbie Lawler,Rory Macdonald,1,1,Cecil Peoples,Mark Smith,Glenn Trowbridge,29-28,29-28,28-29,1,1,0,5,1,1,1,0
+178,Georges St-Pierre,Johny Hendricks,1,0,Sal D'Amato,Glenn Trowbridge,Tony Weeks,48-47,47-48,48-47,1,0,1,0,0,0,1,0
+179,Rani Yahya,Tom Niinimaki,0,0,Chris Lee,Patricia Morse Jarman,Tony Weeks,29-28,28-29,30-27,1,0,1,2,1,1,0,1
+180,Bethe Correia,Julie Kedzie,1,1,Barry Foley,Peter Hickmott,Charlie Keech,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+181,Alptekin Ozkilic,Darren Uyenoyama,1,1,Michael Bell,Edward Collantes,Marcos Rosales,29-28,28-29,30-27,1,0,1,4,1,1,0,1
+182,Brian Houston,Trevor Smith,0,0,Richard Bertrand,Derek Cleary,Ken Coffey,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+183,Dustin Ortiz,John Moraga,0,1,Richard Bertrand,Nate Mann,Glenn Trowbridge,29-28,29-28,28-29,1,1,0,1,0,0,0,1
+184,Benson Henderson,Josh Thomson,1,0,Sal D'Amato,Brian Puccillo,Gabriel Sabaitis,49-46,48-47,47-48,1,1,0,5,0,0,0,1
+185,Nick Catone,Tom Watson,1,1,Michelle Agustin,Tony Tamburrino,Cardo Urso,30-27,29-28,28-29,1,1,0,4,1,1,1,0
+186,Iuri Alcantara,Wilson Reis,1,1,Richard Bertrand,Vinicius Lins,Tony Weeks,30-27,30-27,28-29,1,1,0,5,1,1,1,0
+187,Francisco Trinaldo,Jesse Ronson,1,1,Marco Aurelio Borges,Vinicius Lins,Tony Weeks,28-29,29-28,30-27,0,1,1,3,1,0,1,1
+188,Albert Tumenov,Ildemar Alcantara,0,0,Marco Aurelio Borges,Vinicius Lins,Tony Weeks,28-29,30-27,29-28,0,1,1,2,1,0,1,1
+189,Ernest Chavez,Yosdenis Cedeno,1,1,Junichiro Kamijo,Mark Smith,Tony Weeks,30-27,29-28,28-29,1,1,0,4,1,1,1,0
+190,Alexis Davis,Jessica Eye,1,1,Junichiro Kamijo,Chris Lee,Marcos Rosales,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+191,Kazuki Tokudome,Yui Chul Nam,0,0,Tom Harris,Howard Hughes,Chris Watts,29-27,29-28,27-28,1,1,0,1,1,1,1,0
+192,Wang Sai,Lipeng Zhang,0,1,Tom Harris,Howard Hughes,Chris Watts,27-30,29-28,29-28,0,1,1,2,0,1,0,0
+193,Alex Garcia,Sean Spencer,1,1,Aladin Martinez,Dan Mathisen,Troy Wincapaw,30-27,28-29,29-28,1,0,1,4,1,1,0,1
+194,Jessica Andrade,Raquel Pennington,1,1,Aladin Martinez,Dan Mathisen,Troy Wincapaw,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+195,Kelvin Gastelum,Rick Story,1,0,Douglas Crosby,Mike Gonzalez,Aladin Martinez,28-29,30-27,29-28,0,1,1,3,0,1,0,0
+196,Francimar Barroso,Hans Stringer,0,1,Fernando Amaral,Richard Bertrand,Guilherme Bravo,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+197,Alan Omer,Jim Alers,0,0,Howard Hughes,Andy Roberts,Dean Weir,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+198,Mark Bocek,Mike De La Torre,1,1,Richard Bertrand,Sal D'Amato,Erick Philippeaux,28-29,29-28,30-27,0,1,1,3,1,0,1,1
+199,Chad Laprise,Olivier Aubin-Mercier,1,1,Sal D'Amato,Erick Philippeaux,David Therien,30-27,28-29,29-28,1,0,1,5,1,1,0,1
+200,Hernani Perpetuo,Jordan Mein,0,0,Richard Bertrand,Derek Cleary,Jean Warring,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+201,Dustin Ortiz,Ray Borg,1,0,Derek Cleary,Hector Gomez,Chris Lee,29-28,28-29,29-28,1,0,1,5,0,0,1,0
+202,Chris Cariaso,Louis Smolka,1,1,Sal D'Amato,Chris Lee,Cardo Urso,28-29,29-28,29-28,0,1,1,5,1,0,1,1
+203,David Michaud,Li Jingliang,0,0,Dave Hagen,Junichiro Kamijo,Tony Weeks,28-29,29-28,30-27,0,1,1,3,1,0,1,1
+204,Robbie Peralta,Rony Jason,1,1,Richard Bertrand,Chris Lee,Vinicius Lins,29-28,30-27,27-30,1,1,0,5,1,1,1,0
+205,Luke Barnatt,Sean Strickland,0,1,Mark Collett,Andy Haigh,Howard Hughes,28-29,30-27,29-28,0,1,1,3,0,1,0,0
+206,Diego Sanchez,Ross Pearson,1,0,Jeff Collins,Marcos Rosales,Chris Tellez,30-27,27-30,29-28,1,0,1,3,0,0,1,0
+207,Andrei Arlovski,Brendan Schaub,1,0,Sal D'Amato,David Therien,Tony Weeks,29-28,29-28,28-29,1,1,0,4,0,0,0,1
+208,Elizabeth Phillips,Valerie Letourneau,0,0,John Cooper,Sal D'Amato,David Therien,29-28,29-28,28-29,1,1,0,0,1,1,1,0
+209,Andy Enz,Marcelo Guimaraes,0,0,Aladin Martinez,Juan Munoz,Joe Soliz,29-28,29-28,27-30,1,1,0,3,1,1,1,0
+210,Antonio Braga Neto,Clint Hester,0,1,Sal D'Amato,Aladin Martinez,Joe Soliz,28-29,29-28,29-28,0,1,1,1,0,1,0,0
+211,Gian Villante,Sean O'Connell,1,1,Anthony Dimitriou,Charlie Keech,Kon Papaioannou,29-28,28-29,29-28,1,0,1,0,1,1,0,1
+212,James Moontasri,Joe Ellenberger,0,1,Aladin Martinez,Juan Munoz,Joe Soliz,28-29,29-28,29-28,0,1,1,2,0,1,0,0
+213,Marcus Brimage,Russell Doane,0,1,Sal D'Amato,Junichiro Kamijo,Marcos Rosales,28-29,29-28,30-27,0,1,1,2,0,1,0,0
+214,Bruno Santos,Chris Camozzi,1,1,Douglas Crosby,Chris Lee,Glenn Trowbridge,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+215,Dustin Ortiz,Justin Scoggins,1,0,Adalaide Byrd,Sal D'Amato,Chris Lee,28-29,29-28,29-28,0,1,1,5,0,1,0,0
+216,Jesse Ronson,Kevin Lee,0,0,Marcos Rosales,Roy Silbert,Glenn Trowbridge,30-27,29-28,28-29,1,1,0,2,1,1,1,0
+217,Bobby Green,Josh Thomson,1,1,Michael Bell,Edward Collantes,Wade Vierra,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+218,Lauren Murphy,Sara Mcmann,0,0,Lars Borssen,Chris Lee,William McKinnon,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+219,Elizabeth Phillips,Milana Dudieva,0,1,Anthony Dimitriou,Garth Harriman,Howard Hughes,30-27,28-29,29-28,1,0,1,4,0,0,1,0
+220,Royston Wee,Yao Zhikui,1,0,Howard Hughes,Charlie Keech,Paul Sutherland,29-28,27-30,29-28,1,0,1,4,0,0,1,0
+221,Danny Castillo,Tony Ferguson,0,0,Michael Bell,Derek Cleary,Larry Landless,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+222,Chris Camozzi,Rafael Natal,0,1,Sal D'Amato,Sue Sanidad,Glenn Trowbridge,29-28,29-28,28-29,1,1,0,2,0,0,0,1
+223,Kiichi Kunimoto,Rich Walsh,1,0,Mark Collett,Kon Papaioannou,Tony Weeks,28-29,29-28,29-28,0,1,1,4,0,1,0,0
+224,Kyung Ho Kang,Michinori Tanaka,1,1,Thomas Fan,Junichiro Kamijo,Kon Papaioannou,29-28,28-29,29-28,1,0,1,5,1,1,0,1
+225,Brian Ebersole,John Howard,1,0,Lester Griffin,Marcos Rosales,Cardo Urso,29-28,29-28,28-29,1,1,0,5,0,0,0,1
+226,Jason Saggo,Paul Felder,0,1,Chris Lee,Robert MacAvoy,Craig Smith,28-29,29-28,29-28,0,1,1,1,0,1,0,0
+227,Li Jingliang,Nordine Taleb,0,0,Chris Lee,Robert MacAvoy,Craig Smith,28-29,29-28,30-27,0,1,1,3,1,0,1,1
+228,Cathal Pendred,Gasan Umalatov,1,0,Mark Collett,Jespar Gunnarson,Paul Sutherland,29-28,29-28,28-29,1,1,0,4,0,0,0,1
+229,Gunnar Nelson,Rick Story,0,0,Jim Bergman,Mark Collett,Paul Sutherland,47-48,49-46,50-44,0,1,1,0,1,0,1,1
+230,Darren Elkins,Lucas Martins,1,1,Richard Bertrand,Eric Colón,Vinicius Lins,30-27,30-27,27-30,1,1,0,4,1,1,1,0
+231,Claudio Silva,Leon Edwards,1,0,Guilherme Bravo,Derek Cleary,Roy Silbert,28-29,29-28,29-28,0,1,1,4,0,1,0,0
+232,Luke Barnatt,Roger Narvaez,0,0,Marcos Rosales,Jon Schorle,Anthony Townsend,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+233,Brad Pickett,Chico Camus,0,1,Marcos Rosales,Jon Schorle,Anthony Townsend,29-28,27-30,29-28,1,0,1,3,0,0,1,0
+234,Johny Hendricks,Robbie Lawler,0,1,Sal D'Amato,Marcos Rosales,Glenn Trowbridge,47-48,48-47,49-46,0,1,1,0,0,1,0,0
+235,Jessica Penne,Randa Markos,1,1,Lester Griffin,Junichiro Kamijo,Tony Weeks,28-29,30-27,29-28,0,1,1,4,1,0,1,1
+236,Claudia Gadelha,Joanna Jedrzejczyk,0,1,Derek Cleary,Chris Flores,Marcos Rosales,29-28,29-28,28-29,1,1,0,1,0,0,0,1
+237,Marcio Alexandre Jr.,Tim Means,0,0,Fernando Amaral,Lester Griffin,Tony Weeks,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+238,Gleison Tibau,Norman Parke,1,1,Sal D'Amato,Chris Lee,Steve Rita,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+239,Joby Sanchez,Tateki Matsuda,1,1,Douglas Crosby,Mike Mena,Steve Rita,28-29,30-27,29-28,0,1,1,3,1,0,1,1
+240,Phil Davis,Ryan Bader,0,0,Mark Collett,Mans Nilsson,Andy Roberts,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+241,Kelvin Gastelum,Tyron Woodley,0,0,Adalaide Byrd,Chris Lee,Tony Weeks,29-28,28-29,30-27,1,0,1,3,1,1,0,1
+242,Ildemar Alcantara,Richardson Moreira,1,1,Lester Griffin,Junichiro Kamijo,Tony Weeks,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+243,Adriano Martins,Rustam Khabilov,1,1,Marco Aurelio Borges,Guilherme Bravo,Marcos Rosales,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+244,Alex Torres,Masio Fullen,0,0,Ron McCarthy,Marcos Rosales,Wade Vierra,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+245,James Krause,Valmir Lazaro,0,0,Michael Bell,Marcos Rosales,Wade Vierra,28-29,29-28,29-28,0,1,1,0,1,0,1,1
+246,Holly Holm,Raquel Pennington,1,1,Derek Cleary,Ron McCarthy,Wade Vierra,28-29,30-27,29-28,0,1,1,3,1,0,1,1
+247,Al Iaquinta,Jorge Masvidal,1,0,Douglas Crosby,Dave Tirelli,Cardo Urso,27-30,29-28,29-28,0,1,1,3,0,1,0,0
+248,Chris Dempsey,Eddie Gordon,1,0,Michelle Agustin,Michael Depasquale Jr.,Cardo Urso,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+249,Jonavin Webb,Kyle Noke,0,1,Barry Foley,Charlie Keech,Christopher Shen,29-28,29-28,27-30,1,1,0,4,0,0,0,1
+250,Phillipe Nover,Yui Chul Nam,1,0,Mark Craig,Barry Foley,Kon Papaioannou,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+251,Nolan Ticman,Yao Zhikui,0,1,Evan Field,Barry Foley,Christopher Shen,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+252,Levan Makashvili,Mark Eddiva,1,1,Evan Field,Kon Papaioannou,Christopher Shen,29-28,28-29,30-27,1,0,1,4,1,1,0,1
+253,Rafael Natal,Uriah Hall,1,0,Sal D'Amato,Junichiro Kamijo,Patricia Morse Jarman,29-28,29-28,28-29,1,1,0,4,0,0,0,1
+254,Elizeu Zaleski Dos Santos,Nicolas Dalby,0,0,Guilherme Bravo,Felipe Frank,Rick Winter,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+255,Jake Collier,Ricardo Abreu,1,0,Myron Gaudet,Robbie Scheuermann,Cardo Urso,29-28,29-28,28-29,1,1,0,5,0,0,0,1
+256,Charles Rosa,Yair Rodriguez,0,0,Derek Cleary,Chris Lee,Glenn Trowbridge,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+257,Eddie Alvarez,Gilbert Melendez,1,1,Derek Cleary,Sal D'Amato,Chris Lee,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+258,Hacran Dias,Levan Makashvili,1,1,Richard Bertrand,Hector Gomez,Eliseo Rodriguez,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+259,Cathal Pendred,John Howard,0,0,Adalaide Byrd,Marcos Rosales,Tony Weeks,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+260,Masanori Kanehara,Rani Yahya,0,1,Michael Bell,Mike Beltran,Mark Smith,29-28,29-28,28-29,1,1,0,2,0,0,0,1
+261,Michael Bisping,Thales Leites,1,1,Mark Collett,Howard Hughes,Paul Sutherland,49-46,48-47,47-48,1,1,0,0,1,1,1,0
+262,Andrew Holbrook,Ramsey Nijem,1,0,Kelvin Caldwell,Brian Puccillo,Rick Winter,29-28,28-29,29-28,1,0,1,5,0,0,1,0
+263,Ben Saunders,Kenny Robertson,1,1,Kelvin Caldwell,Sal D'Amato,Rick Winter,29-28,28-29,29-28,1,0,1,0,1,1,0,1
+264,Danny Castillo,Jim Miller,0,0,Sal D'Amato,Brian Puccillo,Rick Winter,28-29,29-28,30-27,0,1,1,4,1,0,1,1
+265,Beneil Dariush,Michael Johnson,1,0,Richard Bertrand,Douglas Crosby,Sal D'Amato,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+266,Frankie Saenz,Sirwan Kakai,1,1,Richard Bertrand,Derek Cleary,Chris Lee,30-27,28-29,30-27,1,0,1,5,1,1,0,1
+267,Chris Beal,Chris Kelades,0,1,Sal D'Amato,Dr. Greg Jackson,David Therien,29-28,29-28,27-30,1,1,0,4,0,0,0,1
+268,Paul Felder,Ross Pearson,0,0,Adalaide Byrd,Derek Cleary,Cardo Urso,30-27,29-28,28-29,1,1,0,3,1,1,1,0
+269,Joaquim Silva,Nazareno Malegarie,1,0,Adalaide Byrd,Marcos Rosales,Cardo Urso,30-27,30-27,28-29,1,1,0,3,0,0,0,1
+270,Alexander Gustafsson,Daniel Cormier,0,0,Derek Cleary,Sal D'Amato,Kerry Hatley,47-48,48-47,49-46,0,1,1,0,1,0,1,1
+271,Krzysztof Jotko,Scott Askham,1,0,Andy Haigh,Paul Sutherland,Dean Weir,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+272,Jimmie Rivera,Pedro Munhoz,1,1,Marco Aurelio Borges,Derek Cleary,Alessandro Vieira,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+273,Enrique Marin,Erick Montano,0,1,Eric Colón,Roy Silbert,Cardo Urso,28-29,29-28,29-28,0,1,1,4,0,1,0,0
+274,Henry Cejudo,Jussier Formiga,1,1,Derek Cleary,Eric Colón,Roy Silbert,30-27,30-27,28-29,1,1,0,4,1,1,1,0
+275,Michel Prazeres,Valmir Lazaro,1,0,Marcos Rosales,Roy Silbert,Cardo Urso,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+276,Kelvin Gastelum,Neil Magny,0,0,Eric Colón,Marcos Rosales,Cardo Urso,48-47,48-47,47-48,1,1,0,2,1,1,1,0
+277,Mike De La Torre,Yui Chul Nam,1,1,Evan Field,Barry Foley,Charlie Keech,29-28,28-29,29-28,1,0,1,5,1,1,0,1
+278,Leo Kuntz,Tae Hyun Bang,0,0,Mark Craig,Garth Harriman,Charlie Keech,28-29,29-28,29-28,0,1,1,1,1,0,1,1
+279,Alberto Mina,Yoshihiro Akiyama,1,1,Mark Craig,Evan Field,Barry Foley,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+280,Guangyou Ning,Marco Beltran,0,0,Mark Craig,Evan Field,Garth Harriman,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+281,Benson Henderson,Jorge Masvidal,1,1,Mark Craig,Barry Foley,Charlie Keech,47-48,48-47,49-46,0,1,1,0,1,0,1,1
+282,Phillipe Nover,Zubaira Tukhugov,0,0,Adalaide Byrd,Dave Hagen,Roy Silbert,28-29,30-27,30-27,0,1,1,4,1,0,1,1
+283,Julian Erosa,Marcin Wrzosek,1,0,Derek Cleary,Sal D'Amato,Dave Hagen,28-29,29-28,29-28,0,1,1,5,0,1,0,0
+284,John Makdessi,Yancy Medeiros,0,1,Sal D'Amato,Lester Griffin,Marcos Rosales,28-29,29-28,29-28,0,1,1,0,0,1,0,0
+285,Ronaldo Souza,Yoel Romero,0,1,Lester Griffin,Glenn Trowbridge,Tony Weeks,28-29,29-27,29-28,0,1,1,1,0,1,0,0
+286,Sarah Kaufman,Valentina Shevchenko,0,0,Don Balas,Hector Gomez,Barry Luxenberg,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+287,Danny Castillo,Nik Lentz,0,0,Derek Cleary,Chris Lee,Barry Luxenberg,29-28,30-27,28-29,1,1,0,4,1,1,1,0
+288,Albert Tumenov,Lorenz Larkin,1,1,Adalaide Byrd,Derek Cleary,Junichiro Kamijo,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+289,Carlos Condit,Robbie Lawler,0,1,Derek Cleary,Chris Lee,Tony Weeks,48-47,48-47,47-48,1,1,0,0,0,0,0,1
+290,Alex Morono,Kyle Noke,1,0,Sal D'Amato,Chris Lee,Patricia Morse Jarman,29-28,29-28,27-30,1,1,0,3,0,0,0,1
+291,Joe Soto,Michinori Tanaka,0,1,Adalaide Byrd,Chris Lee,Tony Weeks,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+292,Anthony Pettis,Eddie Alvarez,0,1,Douglas Crosby,Bryan Miner,Ryan Shea,29-28,29-28,28-29,1,1,0,2,0,0,0,1
+293,Dominick Cruz,Tj Dillashaw,1,1,Sal D'Amato,David Ginsberg,Tony Weeks,46-49,48-47,49-46,0,1,1,0,1,0,1,1
+294,Ashlee Evans-Smith,Marion Reneau,1,0,Andrew Adkins,John Lapcevic,Phil Rogers,30-27,29-28,28-29,1,1,0,3,0,0,0,1
+295,Brad Pickett,Francisco Rivera,1,0,Ben Cartlidge,Maciej Motylewski,Paul Sutherland,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+296,Chad Laprise,Ross Pearson,0,0,Barry Foley,Kon Papaioannou,Albert Shen,29-28,30-27,28-30,1,1,0,3,1,1,1,0
+297,Lucas Martins,Robert Whiteford,1,1,Jadranko Cacic,Ben Cartlidge,Andreas Gruner,29-28,28-29,30-27,1,0,1,3,1,1,0,1
+298,Bethe Correia,Raquel Pennington,0,0,Sal D'Amato,Richard Davis,Chris Lee,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+299,Jon Tuck,Josh Emmett,0,0,Ben Cartlidge,Andreas Gruner,Maciej Motylewski,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+300,Corey Anderson,Mauricio Rua,0,1,Hallison Pontes,Joseph Terrell,Otto Torriero,28-29,29-28,29-28,0,1,1,1,0,1,0,0
+301,Renato Moicano,Zubaira Tukhugov,1,1,Joseph Terrell,Glenn Trowbridge,Alessandro Vieira,29-28,29-28,28-29,1,1,0,5,1,1,1,0
+302,Aljamain Sterling,Bryan Caraway,0,0,Adalaide Byrd,Dave Hagen,Tony Weeks,28-29,29-28,29-28,0,1,1,2,1,0,1,1
+303,Jorge Masvidal,Lorenz Larkin,0,0,Adalaide Byrd,Dave Hagen,Glenn Trowbridge,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+304,Sean Strickland,Tom Breese,1,1,Michael Bell,Jeff Mullen,Wade Vierra,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+305,Jason Saggo,Leandro Silva,1,1,Douglas Crosby,Pasquale Procopio,David Therien,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+306,John Makdessi,Mehdi Baghdad,1,0,Sal D'Amato,Junichiro Kamijo,Tony Weeks,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+307,Derrick Lewis,Roy Nelson,1,1,Adalaide Byrd,Dave Hagen,Glenn Trowbridge,28-29,29-28,29-28,0,1,1,5,1,0,1,1
+308,Anthony Birchak,Dileno Lopes,1,1,Derek Cleary,Lester Griffin,Patricia Morse Jarman,29-28,27-30,29-28,1,0,1,5,1,1,0,1
+309,John Moraga,Matheus Nicolau,0,0,Lester Griffin,Chris Lee,Jeff Mullen,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+310,Jason Knight,Jim Alers,1,1,Matt Janecek,Gabriel Sabaitis,Rick Winter,29-28,29-28,28-29,1,1,0,5,1,1,1,0
+311,Fredy Serrano,Ryan Benoit,0,0,Ken Coffey,James Corbett,Chris Lee,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+312,Karolina Kowalkiewicz,Rose Namajunas,1,1,Ken Coffey,Chris Lee,Jeff Mullen,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+313,Danielle Taylor,Maryna Moroz,0,0,Derek Cleary,Dan Furse,Rich Montanez,29-28,28-29,30-27,1,0,1,3,1,1,0,1
+314,Alex Caceres,Yair Rodriguez,0,0,Derek Cleary,Glenn Trowbridge,Tony Weeks,46-49,48-47,48-47,0,1,1,0,1,0,1,1
+315,Enrique Barzola,Kyle Bochniak,0,1,John Cooper,Dave Hagen,David Therien,29-28,29-28,27-30,1,1,0,3,0,0,0,1
+316,Alessio Di Chirico,Garreth Mclellan,1,1,John Cooper,David Therien,Tony Weeks,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+317,Jim Miller,Joe Lauzon,1,0,Dave Hagen,David Therien,Tony Weeks,28-29,29-28,29-28,0,1,1,5,0,1,0,0
+318,Jessin Ayari,Jim Wallhead,1,0,Ben Cartlidge,Takeo Kobayashi,Paul Sutherland,28-29,29-28,30-27,0,1,1,3,0,1,0,0
+319,Brad Tavares,Caio Magalhaes,1,1,Derek Cleary,Eric Colon,Rick Winter,30-27,29-28,28-29,1,1,0,5,1,1,1,0
+320,Bethe Correia,Jessica Eye,1,0,Derek Cleary,Eric Colon,Sal D'Amato,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+321,Kenny Robertson,Roan Carneiro,0,0,Guadalupe Chapa,Hector Maldonado,Marcos Rosales,28-29,30-27,29-28,0,1,1,4,1,0,1,1
+322,Kelly Faszholz,Ketlen Vieira,0,0,Rick Campos,Sal D'Amato,Jeff Mullen,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+323,John Dodson,John Lineker,0,0,Sal D'Amato,Marcos Rosales,Glenn Trowbridge,48-47,47-48,48-47,1,0,1,0,1,1,0,1
+324,Joshua Burkman,Zak Ottow,0,0,Sal D'Amato,Jeff Mullen,Glenn Trowbridge,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+325,Shamil Abdurakhimov,Walt Harris,1,1,Sal D'Amato,Dave Hagen,Marcos Rosales,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+326,Adriano Martins,Leonardo Santos,0,1,Maciej Motylewski,Jeff Mullen,Paul Sutherland,28-29,29-28,29-28,0,1,1,4,0,1,0,0
+327,Jason Novelli,Polo Reyes,0,1,Jeff Mullen,Brian Puccillo,Marcos Rosales,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+328,Erik Perez,Felipe Arantes,1,1,Sal D'Amato,Jeff Mullen,Marcos Rosales,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+329,Katlyn Cerminara,Liz Carmouche,0,0,Chris Lee,Glenn Trowbridge,Cardo Urso,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+330,Alexander Volkov,Tim Johnson,1,0,Howard Hughes,Takeo Kobayashi,Peter Lavery,29-28,29-28,27-30,1,1,0,5,0,0,0,1
+331,Ross Pearson,Stevie Ray,0,0,Andreas Gruner,Pawel Harasim,Takeo Kobayashi,27-30,30-27,30-27,0,1,1,3,1,0,1,1
+332,Sergio Moraes,Zak Ottow,1,1,Guilherme Bravo,Hallison Pontes,Joseph Terrell,30-27,28-29,30-27,1,0,1,4,1,1,0,1
+333,Danielle Taylor,Seo Hee Ham,1,0,Anthony Dimitriou,Evan Field,Christopher Shen,30-27,30-27,28-29,1,1,0,3,0,0,0,1
+334,Damien Brown,Jon Tuck,1,0,Anthony Dimitriou,Evan Field,Christopher Shen,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+335,Andrew Holbrook,Jake Matthews,1,1,Anthony Dimitriou,Evan Field,Charlie Keech,29-28,29-28,28-29,1,1,0,5,1,1,1,0
+336,Brandon Moreno,Ryan Benoit,1,1,Junichiro Kamijo,Jeff Mullen,Rick Winter,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+337,Henry Cejudo,Joseph Benavidez,0,0,Derek Cleary,Marcos Rosales,Glenn Trowbridge,29-27,27-29,30-26,1,0,1,3,1,1,0,1
+338,Dustin Ortiz,Zach Makovsky,1,1,Patrick Buckley,Pasquale Procopio,David Therien,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+339,Valerie Letourneau,Viviane Pereira,0,1,Eric Colon,Dr. Greg Jackson,Cardo Urso,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+340,Bojan Velickovic,Sultan Aliev,0,0,Mike Guingona,Ron McCarthy,Brandon Saucedo,30-27,30-27,28-29,1,1,0,2,1,1,1,0
+341,Dong Hyun Kim,Tarec Saffiedine,1,0,Derek Cleary,Jeff Mullen,Glenn Trowbridge,29-28,29-28,27-30,1,1,0,4,0,0,0,1
+342,Joe Lauzon,Marcin Held,1,0,Derek Cleary,Jeff Mullen,Marcos Rosales,27-30,29-28,29-28,0,1,1,5,0,1,0,0
+343,Augusto Mendes,Frankie Saenz,1,1,Chris Flores,Brad Frank,Dennis O'Connell,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+344,Aljamain Sterling,Raphael Assuncao,0,0,Hale Hilsabeck,Ron Mann,Ben Ramirez,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+345,Alexandre Pantoja,Eric Shelton,1,1,Joe Garcia,Ron Mann,Ben Ramirez,29-28,28-29,29-28,1,0,1,5,1,1,0,1
+346,Ovince Saint Preux,Volkan Oezdemir,0,1,Sal D'Amato,JJ Ferraro,Joe Soliz,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+347,Phillipe Nover,Rick Glenn,0,0,Derek Cleary,Douglas Crosby,Sal D'Amato,29-28,27-30,29-28,1,0,1,2,1,1,0,1
+348,Carla Esparza,Randa Markos,0,1,Hubert Earle,Robert MacAvoy,Don Robinson,29-28,28-29,29-28,1,0,1,1,0,0,1,0
+349,Albert Morales,Andre Soukhamthath,1,1,Sal D'Amato,Dave Hagen,Patricia Morse Jarman,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+350,Daniel Kelly,Rashad Evans,1,1,Derek Cleary,Dave Hagen,Chris Lee,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+351,Arnold Allen,Makwan Amirkhani,1,1,Mark Collett,Howard Hughes,Paul Sutherland,30-27,28-29,30-27,1,0,1,5,1,1,0,1
+352,Brad Scott,Scott Askham,1,0,Ben Cartlidge,Takeo Kobayashi,Andy Roberts,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+353,Daniel Omielanczuk,Tim Johnson,0,0,Ben Cartlidge,Pawel Harasim,Takeo Kobayashi,30-27,28-29,29-28,1,0,1,2,1,1,0,1
+354,Desmond Green,Josh Emmett,1,1,Douglas Crosby,Sal D'Amato,Dave Tirelli,29-28,30-27,28-29,1,1,0,3,1,1,1,0
+355,Irene Aldana,Katlyn Cerminara,0,1,Derek Cleary,Eric Colon,Jeff Mullen,28-29,29-28,29-28,0,1,1,0,0,1,0,0
+356,Bobby Green,Rashid Magomedov,0,0,Rob Francis,Brian Puccillo,Cardo Urso,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+357,Jeremy Stephens,Renato Moicano,0,0,Brian Puccillo,Marcos Rosales,Tony Weeks,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+358,David Branch,Krzysztof Jotko,1,1,Jeff Mullen,Chris Reed,Troy Wincapaw,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+359,Demian Maia,Jorge Masvidal,1,1,Sal D'Amato,Aladin Martinez,Jeff Mullen,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+360,Joaquim Silva,Reza Madadi,1,1,Andreas Grüner,Mans Nilsson,Andy Roberts,28-29,29-28,29-28,0,1,1,5,1,0,1,1
+361,Abdul Razak Alhassan,Omari Akhmedov,0,0,Mans Nilsson,Andy Roberts,Jorgen Segerlind,30-27,30-27,28-29,1,1,0,2,1,1,1,0
+362,Marlon Moraes,Raphael Assuncao,0,1,Fabio Alves,Guilherme Bravo,Phillipe Iorio,28-29,29-28,30-27,0,1,1,3,0,1,0,0
+363,Kiichi Kunimoto,Zak Ottow,0,0,Peter Hickmott,Luke Hill,Charlie Keech,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+364,Darrell Horcher,Devin Powell,1,1,Gerald Ritter,Marcos Rosales,Cardo Urso,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+365,Drakkar Klose,Marc Diakiese,1,1,Derek Cleary,Jeff Mullen,Marcos Rosales,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+366,Elizeu Zaleski Dos Santos,Lyman Good,1,0,Douglas Crosby,Jeff Mullen,Cardo Urso,30-27,30-27,28-29,1,1,0,3,0,0,0,1
+367,Darren Elkins,Dennis Bermudez,1,0,Douglas Crosby,Bryan Miner,Dave Tirelli,29-28,28-29,29-28,1,0,1,3,0,0,1,0
+368,Gian Villante,Patrick Cummins,0,0,Sal D'Amato,Jeff Mullen,Dave Tirelli,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+369,Eric Shelton,Jarred Brooks,0,1,Guilherme Bravo,Brandon Saucedo,Wade Vierra,28-29,29-28,29-28,0,1,1,2,0,1,0,0
+370,Alejandro Perez,Andre Soukhamthath,1,0,Miguel Jimenez,Jeff Mullen,Roy Silbert,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+371,Alexa Grasso,Randa Markos,1,1,Marcos Rosales,Roy Silbert,Dave Tirelli,29-28,29-28,28-29,1,1,0,5,1,1,1,0
+372,Rashad Evans,Sam Alvey,0,0,Derek Cleary,Eric Colón,Jeff Mullen,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+373,Amanda Nunes,Valentina Shevchenko,1,0,Sal D'Amato,David Therien,Tony Weeks,48-47,48-47,47-48,1,1,0,3,0,0,0,1
+374,Anthony Rocco Martin,Olivier Aubin-Mercier,0,0,Eric Colón,Greg Monskie,Jeff Mullen,28-29,29-28,29-28,0,1,1,2,1,0,1,1
+375,Zu Anyanwu,Justin Ledet,0,0,Dave Brogan,Eric Colon,Cardo Urso,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+376,Alex Morono,Keita Nakamura,0,0,Ben Cartlidge,Barry Foley,Charlie Keech,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+377,Chan-Mi Jeon,Syuri Kondo,0,0,Ben Cartlidge,Anthony Dimitriou,Evan Field,30-27,30-27,28-29,1,1,0,0,1,1,1,0
+378,Cody Stamann,Tom Duquesnoy,1,1,Chris Lee,Marcos Rosales,Rick Winter,28-29,30-27,29-28,0,1,1,4,1,0,1,1
+379,Deiveson Figueiredo,Jarred Brooks,1,0,Guilherme Bravo,Phillipe Iorio,Dave Tirelli,27-30,29-28,29-28,0,1,1,5,0,1,0,0
+380,John Dodson,Marlon Moraes,0,0,Brian Costello,Chris Lee,Ron Rodriguez,30-27,30-27,27-30,1,1,0,3,1,1,1,0
+381,Cezar Ferreira,Nate Marquardt,1,1,Brian Costello,Chris Lee,Jeff Mullen,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+382,Belal Muhammad,Tim Means,1,1,Evan Field,Charlie Keech,Kevin Manderson,29-28,28-29,29-28,1,0,1,0,1,1,0,1
+383,Damien Brown,Frank Camacho,0,0,Chris Aliendi,Evan Field,Kevin Manderson,29-28,30-27,28-29,1,1,0,0,1,1,1,0
+384,Bojan Velickovic,Jake Matthews,0,1,Anthony Dimitriou,Storm Oshyer,Kon Papaioannou,29-28,29-28,28-29,1,1,0,2,0,0,0,1
+385,Bec Rawlings,Jessica-Rose Clark,0,0,Evan Field,Charlie Keech,Storm Oshyer,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+386,Alex Caceres,Wang Guan,0,0,Kon Papaioannou,Christopher Shen,Paul Sutherland,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+387,Barb Honchak,Lauren Murphy,0,1,Derek Cleary,Junichiro Kamijo,Jeff Mullen,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+388,Cortney Casey,Felice Herrig,0,0,Sal D'Amato,Bryan Miner,Roy Silbert,29-28,29-28,28-29,1,1,0,0,1,1,1,0
+389,Alexis Davis,Liz Carmouche,1,1,Derek Cleary,Ron McCarthy,Jason McCoy,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+390,Frankie Saenz,Merab Dvalishvili,1,0,Derek Cleary,Ron McCarthy,Marcos Rosales,28-29,29-28,29-28,0,1,1,5,0,1,0,0
+391,Jessica Eye,Kalindra Faria,1,1,Sal D'Amato,Rob Francis,Brian Puccillo,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+392,Francimar Barroso,Gian Villante,0,0,David Ginsberg,Mike Mena,Dave Tirelli,30-27,30-27,28-29,1,1,0,3,1,1,1,0
+393,Andre Fili,Dennis Bermudez,1,0,Pedro Claudio,Derek Cleary,Steve Elliott,29-28,29-28,27-30,1,1,0,0,0,0,0,1
+394,Ji Yeon Kim,Justine Kish,1,0,Sal D'Amato,Steve Elliott,Cardo Urso,28-29,30-27,29-28,0,1,1,3,0,1,0,0
+395,Eryk Anders,Lyoto Machida,0,1,Guilherme Bravo,Marcos Rosales,Tony Weeks,48-47,47-48,49-46,1,0,1,1,0,0,1,0
+396,Sergio Moraes,Tim Means,1,0,Phillipe Iorio,Marcos Rosales,Tony Weeks,29-28,28-29,29-28,1,0,1,0,0,0,1,0
+397,Ashley Yoder,Mackenzie Dern,0,0,Adalaide Byrd,Derek Cleary,Junichiro Kamijo,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+398,John Dodson,Pedro Munhoz,1,1,Adalaide Byrd,Sal D'Amato,Glenn Trowbridge,30-27,28-29,29-28,1,0,1,3,1,1,0,1
+399,Cat Zingano,Ketlen Vieira,0,0,Sal D'Amato,Dave Hagen,Marcos Rosales,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+400,Bryan Caraway,Cody Stamann,0,1,Adalaide Byrd,Sal D'Amato,Glenn Trowbridge,29-28,29-28,28-29,1,1,0,1,0,0,0,1
+401,Adam Milstead,Jordan Johnson,0,0,Chris Lee,Marcos Rosales,Tony Weeks,29-28,27-30,29-28,1,0,1,2,1,1,0,1
+402,Kajan Johnson,Stevie Ray,1,1,David Lethaby,Andy Roberts,Paul Sutherland,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+403,Felice Herrig,Karolina Kowalkiewicz,0,0,Derek Cleary,Sal D'Amato,Chris Lee,29-28,29-28,28-29,1,1,0,0,1,1,1,0
+404,Israel Adesanya,Marvin Vettori,1,1,Derek Cleary,Chris Hayes,Chris Lee,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+405,Cortney Casey,Michelle Waterson,0,1,Sal D'Amato,Chris Flores,Dave Hagen,28-29,29-28,29-28,0,1,1,2,0,1,0,0
+406,Ronaldo Souza,Kelvin Gastelum,0,0,Guilherme Bravo,Sal D'Amato,Chris Lee,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+407,Michel Prazeres,Zak Cummings,1,1,Fabio Alves,Chris Lee,Marcelo Vilhena,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+408,Brad Scott,Carlo Pedersoli Jr.,0,0,Howard Hughes,Andy Roberts,Paul Sutherland,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+409,Jason Knight,Makwan Amirkhani,0,0,Mark Collett,Howard Hughes,Andy Roberts,29-28,29-28,27-30,1,1,0,4,1,1,1,0
+410,Gian Villante,Sam Alvey,0,0,Eric Colón,Tim Corrado,Dave Tirelli,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+411,Carla Esparza,Claudia Gadelha,0,0,Michael Bell,Kelvin Caldwell,Brian Puccillo,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+412,Robert Whittaker,Yoel Romero,1,0,Sal D'Amato,Chris Lee,Brian Puccillo,47-48,48-47,48-47,0,1,1,0,0,1,0,0
+413,Joseph Benavidez,Sergio Pettis,0,0,Michael Bell,Kelvin Caldwell,Brian Puccillo,29-28,30-27,28-29,1,1,0,1,1,1,1,0
+414,Mirsad Bektic,Ricardo Lamas,1,1,Sal D'Amato,Chris Lee,Brandon Mason,28-29,29-28,30-27,0,1,1,4,1,0,1,1
+415,Matt Schnell,Naoki Inoue,1,1,Evan Field,Garth Harriman,Charlie Keech,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+416,Ji Yeon Kim,Melinda Fabian,1,1,Ben Cartlidge,Garth Harriman,Charlie Keech,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+417,Matt Bessette,Steven Peterson,0,0,Junichiro Kamijo,Chris Lee,Glenn Trowbridge,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+418,Alessio Di Chirico,Julian Marquez,1,0,Adalaide Byrd,Sal D'Amato,Dave Hagen,29-28,29-28,27-30,1,1,0,4,0,0,0,1
+419,Alex Caceres,Martin Bravo,1,1,Derek Cleary,Dave Hagen,Rick Winter,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+420,Joe Giannetti,Michael Trizano,0,0,Dave Hagen,Junichiro Kamijo,Glenn Trowbridge,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+421,Mike Perry,Paul Felder,1,1,Michael Bell,Dave Hagen,Chris Lee,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+422,Dennis Bermudez,Rick Glenn,0,1,Mike Mikkelson,Tim Turner,Tony Weeks,30-27,28-29,29-28,1,0,1,1,0,0,1,0
+423,Justin Scoggins,Said Nurmagomedov,0,1,Dave Hagen,Mike Mikkelson,Marcos Rosales,29-28,28-29,29-28,1,0,1,3,0,0,1,0
+424,Danny Roberts,David Zawada,1,1,Ben Cartlidge,Howard Hughes,Takeo Kobayashi,29-28,29-28,27-30,1,1,0,4,1,1,1,0
+425,Damir Hadzovic,Nick Hein,1,1,Ben Cartlidge,Pawel Harasim,Howard Hughes,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+426,Kyung Ho Kang,Ricardo Ramos,0,0,Derek Cleary,Sal D'Amato,Marcos Rosales,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+427,Demetrious Johnson,Henry Cejudo,0,0,Sal D'Amato,Ron McCarthy,Marcos Rosales,48-47,48-47,47-48,1,1,0,2,1,1,1,0
+428,Angela Hill,Cortney Casey,0,1,Sal D'Amato,Matt Prieto,Glenn Trowbridge,29-28,28-29,30-27,1,0,1,0,0,0,1,0
+429,Andre Fili,Michael Johnson,0,1,Sal D'Amato,Kristy Gynan,Glenn Trowbridge,29-28,27-30,29-28,1,0,1,4,0,0,1,0
+430,Jarred Brooks,Robert Sanchez,1,1,Steve Armstrong,Chris Lee,Don Turnage,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+431,Irene Aldana,Lucie Pudilova,1,1,Steve Armstrong,Chris Lee,Don Turnage,29-28,29-28,28-29,1,1,0,0,1,1,1,0
+432,Kajan Johnson,Rustam Khabilov,0,1,Ben Cartlidge,David Lethaby,Maciej Motylewski,29-28,28-29,29-28,1,0,1,2,0,0,1,0
+433,Andre Ewell,Renan Barao,1,1,Derek Cleary,Hallison Pontes,Marcelo Vilhena,29-28,29-28,28-29,1,1,0,5,1,1,1,0
+434,Ed Herman,Gian Villante,0,0,Hubert Earle,Bob LeBlanc,David Therien,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+435,Julio Arce,Sheymon Moraes,0,0,Derek Cleary,Douglas Crosby,Chris Lee,29-28,30-26,28-29,1,1,0,1,1,1,1,0
+436,Eric Shelton,Joseph Morales,1,1,Chris Lee,Ben Ramirez,Curtis Thrasher,29-28,30-27,27-30,1,1,0,4,1,1,1,0
+437,Luis Pena,Michael Trizano,0,0,Sal D'Amato,Chris Lee,Ben Ramirez,28-29,29-28,30-27,0,1,1,1,1,0,1,1
+438,Amanda Cooper,Ashley Yoder,0,1,Derek Cleary,Curtis Thrasher,Mark Van Tine,29-28,29-28,27-30,1,1,0,4,0,0,0,1
+439,Joby Sanchez,Mark De La Rosa,0,0,Sal D'Amato,Hale Hilsabeck,Curtis Thrasher,29-28,30-27,28-29,1,1,0,3,1,1,1,0
+440,Martin Day,Liu Pingyuan,0,1,Mark Craig,Barry Foley,Garth Harriman,29-28,28-29,29-28,1,0,1,3,0,0,1,0
+441,Julija Stoliarenko,Leah Letson,0,0,Adalaide Byrd,Junichiro Kamijo,Ron McCarthy,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+442,Darren Stewart,Edmen Shahbazyan,0,0,Junichiro Kamijo,Chris Lee,Patricia Morse Jarman,28-29,29-28,29-28,0,1,1,2,1,0,1,1
+443,Keita Nakamura,Salim Touahri,1,1,Howie Booth,Howard Hughes,Charlie Keech,30-27,28-29,29-28,1,0,1,4,1,1,0,1
+444,Jessica Eye,Katlyn Cerminara,1,1,Dr. Greg Jackson,Benoit Roussel,Declan Woods,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+445,Hakeem Dawodu,Kyle Bochniak,1,1,Eric Colón,Jason Rodgers,Benoit Roussel,30-27,30-27,28-29,1,1,0,5,1,1,1,0
+446,Elias Theodorou,Eryk Anders,1,1,Sal D'Amato,Christopher Doyle,Benoit Roussel,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+447,Dwight Grant,Zak Ottow,0,1,Chris Lee,Brian Puccillo,Rick Winter,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+448,Livinha Souza,Sarah Frota,1,1,Guilherme Bravo,Hallison Pontes,Joseph Terrell,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+449,Max Griffin,Thiago Alves,0,1,Michael Bell,Guilherme Bravo,Hallison Pontes,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+450,Mara Romero Borella,Taila Santos,1,1,Chris Lee,Hallison Pontes,Joseph Terrell,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+451,Magomed Bibulatov,Rogerio Bontorin,0,0,Michael Bell,Guilherme Bravo,Joseph Terrell,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+452,Kai Kara-France,Raulian Paiva,1,0,Derek Cleary,Garth Harriman,Christopher Shen,29-28,28-29,29-28,1,0,1,3,0,0,1,0
+453,Hannah Cifers,Polyana Viana,1,0,Dave Hagen,Ron McCarthy,Tony Weeks,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+454,Jeff Hughes,Maurice Greene,0,1,Michael Bell,Kevin Champion,Sal D'Amato,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+455,Jack Marshman,John Phillips,1,0,Mark Collett,Pawel Harasim,Andy Roberts,29-28,28-29,29-28,1,0,1,3,0,0,1,0
+456,Gunnar Nelson,Leon Edwards,0,0,Howard Hughes,Anders Ohlsson,Andy Roberts,28-29,29-27,29-28,0,1,1,1,1,0,1,1
+457,Dominick Reyes,Volkan Oezdemir,1,0,Junichiro Kamijo,Andy Roberts,Paul Sutherland,29-28,28-29,29-28,1,0,1,5,0,0,1,0
+458,Gerald Meerschaert,Kevin Holland,0,1,Greg Monskie,Dave Tirelli,Cardo Urso,29-28,28-29,30-27,1,0,1,1,0,0,1,0
+459,Alan Jouban,Dwight Grant,0,0,Derek Cleary,Ken Coffey,Anthony Maness,29-28,29-28,27-30,1,1,0,4,1,1,1,0
+460,Antonina Shevchenko,Roxanne Modafferi,0,0,Mark Collett,Howard Hughes,Maria Makhmutova,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+461,Andrei Arlovski,Augusto Sakai,0,1,Derek Cleary,Chris Lee,Troy Wincapaw,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+462,Cory Sandhagen,John Lineker,1,0,Derek Cleary,Chris Lee,Barry Luxenberg,29-28,28-29,29-28,1,0,1,0,0,0,1,0
+463,Court Mcgee,Dhiego Lima,0,0,Richard Bertrand,Sal D'Amato,Chris Lee,28-29,30-27,29-28,0,1,1,3,1,0,1,1
+464,Cub Swanson,Shane Burgos,0,0,Eric Colon,David Therien,Declan Woods,29-28,27-30,30-27,1,0,1,0,1,1,0,1
+465,Jon Jones,Thiago Santos,1,1,Michael Bell,Derek Cleary,Junichiro Kamijo,48-47,48-47,47-48,1,1,0,3,1,1,1,0
+466,Karl Roberson,Wellington Turman,1,0,Michael Bell,Derek Cleary,Wade Vierra,29-28,28-29,29-28,1,0,1,5,0,0,1,0
+467,Domingo Pilarte,Felipe Colares,0,1,Jennie Cardenas,Gino Garcia,Marcos Rosales,28-29,29-28,29-28,0,1,1,4,0,1,0,0
+468,Irene Aldana,Raquel Pennington,0,0,Ruben Carrion,Perry Hillin,Marcos Rosales,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+469,Krzysztof Jotko,Marc-Andre Barriault,1,1,Derek Cleary,Kevin Dornan,Dave Hagen,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+470,Bobby Moffett,Enrique Barzola,0,0,Eric Colon,Phillipe Iorio,Joseph Terrell,28-29,30-27,29-28,0,1,1,0,1,0,1,1
+471,Chris Gutierrez,Geraldo De Freitas,1,0,Phillipe Iorio,Joseph Terrell,Tony Weeks,29-28,27-30,29-28,1,0,1,4,0,0,1,0
+472,Mike Perry,Vicente Luque,0,0,Guilherme Bravo,Eric Colon,Joseph Terrell,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+473,Brandon Davis,Kyung Ho Kang,0,0,Derek Cleary,Luis Cobian,Ron McCarthy,29-28,28-29,29-28,1,0,1,2,1,1,0,1
+474,Mizuki Inoue,Wu Yanan,1,1,Barry Foley,Garth Harriman,Albert Shen,29-28,29-28,28-29,1,1,0,0,1,1,1,0
+475,Karol Rosa,Lara Procopio,1,1,Garth Harriman,Howard Hughes,Albert Shen,29-28,30-27,28-29,1,1,0,0,1,1,1,0
+476,Andrea Lee,Joanne Wood,0,0,Ben Cartlidge,Pawel Harasim,Maria Makhmutova,28-29,30-27,29-28,0,1,1,0,1,0,1,1
+477,Edson Barboza,Paul Felder,0,1,Howie Booth,David Lethaby,Maria Makhmutova,27-30,29-28,30-27,0,1,1,3,0,1,0,0
+478,Antonio Carlos Junior,Uriah Hall,0,0,Michael Bell,Sal D'Amato,David Therien,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+479,Cole Smith,Miles Johns,0,0,Michael Bell,Derek Cleary,Dave Hagen,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+480,Glover Teixeira,Nikita Krylov,1,1,Michael Bell,Sal D'Amato,Dave Hagen,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+481,Brandon Davis,Giga Chikadze,0,0,Nicolaj Bulow,Andreas Gruner,Cezary Wojciechowski,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+482,Dhiego Lima,Luke Jumeau,1,1,Garth Harriman,Charlie Keech,Christopher Shen,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+483,Luis Pena,Matt Frevola,0,0,Chris Lee,Daniel Torres,Tony Weeks,28-29,29-28,29-28,0,1,1,2,1,0,1,1
+484,Eryk Anders,Gerald Meerschaert,1,0,Derek Cleary,Michelle Olney,Tony Weeks,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+485,Darren Stewart,Deron Winn,1,0,Eric Colon,Nick Mahmood,Dave Tirelli,29-28,29-28,28-29,1,1,0,5,0,0,0,1
+486,Ashley Yoder,Randa Markos,0,0,Mark Collett,Evan Field,Howard Hughes,29-28,28-29,29-28,1,0,1,1,1,1,0,1
+487,Alexandra Albu,Loma Lookboonmee,0,0,Mark Collett,Barry Foley,Pawel Harasim,30-27,28-29,30-27,1,0,1,3,1,1,0,1
+488,Darren Till,Kelvin Gastelum,1,1,Eric Colon,Chris Lee,Dave Tirelli,29-28,30-27,27-30,1,1,0,4,1,1,1,0
+489,Blagoy Ivanov,Derrick Lewis,0,0,Eric Colon,Chris Lee,Dave Tirelli,28-29,29-28,30-27,0,1,1,4,1,0,1,1
+490,Hakeem Dawodu,Julio Arce,1,1,Derek Cleary,Eric Colon,Chris Lee,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+491,Davey Grant,Grigorii Popov,1,1,Lukasz Bosacki,Howard Hughes,Paul Sutherland,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+492,Klidson Abreu,Shamil Gamzatov,0,1,Lukasz Bosacki,Howard Hughes,Paul Sutherland,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+493,Ronaldo Souza,Jan Blachowicz,0,0,Sal D'Amato,Chris Lee,Hallison Pontes,48-47,48-47,47-48,1,1,0,1,1,1,1,0
+494,Jose Aldo,Marlon Moraes,0,0,Michael Bell,Eric Colon,Mark Smith,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+495,Heili Alateng,Ryan Benoit,1,1,Ben Cartlidge,Anthony Dimitriou,Evan Field,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+496,Aleksandar Rakic,Volkan Oezdemir,0,1,Mark Collett,Anthony Dimitriou,Evan Field,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+497,Kyung Ho Kang,Liu Pingyuan,1,1,Ben Cartlidge,Evan Field,Paul Sutherland,29-28,28-29,30-27,1,0,1,4,1,1,0,1
+498,Jj Aldrich,Sabina Mazo,0,1,Adalaide Byrd,Junichiro Kamijo,Chris Lee,29-28,29-28,28-29,1,1,0,0,0,0,0,1
+499,Andre Ewell,Jonathan Martinez,1,0,Danny Dealejandro,JJ Ferraro,Joe Soliz,29-28,28-29,30-27,1,0,1,3,0,0,1,0
+500,Andrea Lee,Lauren Murphy,0,1,Danny Dealejandro,Chris Lee,Patrick Patlan,30-27,28-29,29-28,1,0,1,0,0,0,1,0
+501,James Krause,Trevin Giles,0,0,JJ Ferraro,Patrick Patlan,Joe Soliz,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+502,Dan Ige,Mirsad Bektic,1,1,JJ Ferraro,Patrick Patlan,Marcos Rosales,29-28,28-29,29-28,1,0,1,5,1,1,0,1
+503,Dan Hooker,Paul Felder,1,0,Barry Foley,Howard Hughes,David Lethaby,47-48,48-47,48-47,0,1,1,0,0,1,0,0
+504,Brad Riddell,Magomed Mustafaev,1,1,Howie Booth,Barry Foley,Luke Hill,29-28,28-29,29-28,1,0,1,5,1,1,0,1
+505,Giga Chikadze,Jamall Emmers,1,1,Eric Colon,Junichiro Kamijo,Tony Weeks,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+506,Alex Oliveira,Max Griffin,1,1,Sal D'Amato,Dave Hagen,Chris Lee,28-29,29-28,29-28,0,1,1,4,1,0,1,1
+507,Ryan Spann,Sam Alvey,1,1,Sal D'Amato,Chris Lee,Dave Tirelli,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+508,Aleksei Oleinik,Fabricio Werdum,1,1,Derek Cleary,Chris Lee,Barry Luxenberg,28-29,29-28,29-28,0,1,1,5,1,0,1,1
+509,Carla Esparza,Michelle Waterson,1,0,Sal D'Amato,Howard Reichbach,Dave Tirelli,29-28,30-27,27-30,1,1,0,4,0,0,0,1
+510,Ray Borg,Ricky Simon,0,0,Derek Cleary,Sal D'Amato,Dave Tirelli,29-28,29-28,28-29,1,1,0,2,1,1,1,0
+511,Ben Rothwell,Ovince Saint Preux,1,1,Derek Cleary,Sal D'Amato,Dave Tirelli,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+512,Angela Hill,Claudia Gadelha,0,1,Sal D'Amato,Chris Lee,Dave Tirelli,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+513,Dan Ige,Edson Barboza,1,0,Derek Cleary,Sal D'Amato,Troy Wincapaw,29-28,29-28,28-29,1,1,0,3,0,0,0,1
+514,Augusto Sakai,Blagoy Ivanov,1,1,Michael Bell,Junichiro Kamijo,Ron McCarthy,27-30,29-28,29-28,0,1,1,3,1,0,1,1
+515,Charles Rosa,Kevin Aguilar,1,1,Eric Colón,Sal D'Amato,Dave Hagen,29-28,29-28,28-29,1,1,0,3,1,1,1,0
+516,Andre Fili,Charles Jourdain,1,1,Derek Cleary,Eric Colón,Ron McCarthy,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+517,Alexander Volkanovski,Max Holloway,1,0,Mark Collett,David Lethaby,Clemens Werner,48-47,47-48,48-47,1,0,1,0,0,0,1,0
+518,Elizeu Zaleski Dos Santos,Muslim Salikhov,0,1,Lukasz Bosacki,David Lethaby,Clemens Werner,30-27,28-29,29-28,1,0,1,4,0,0,1,0
+519,Jessica Andrade,Rose Namajunas,0,0,Mark Collett,Anders Ohlsson,Vito Paolillo,28-29,29-28,29-28,0,1,1,3,1,0,1,1
+520,Mauricio Rua,Rogerio Nogueira,1,1,Ben Cartlidge,Mark Collett,David Lethaby,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+521,Carla Esparza,Marina Rodriguez,1,0,Ben Cartlidge,Anders Ohlsson,Clemens Werner,29-28,28-29,30-27,1,0,1,4,0,0,1,0
+522,Ali Alqaisi,Irwin Rivera,0,0,Eric Colón,Dave Hagen,Junichiro Kamijo,29-28,28-29,29-28,1,0,1,4,1,1,0,1
+523,Frankie Edgar,Pedro Munhoz,1,0,Derek Cleary,Eric Colón,Sal D'Amato,48-47,48-47,46-49,1,1,0,0,0,0,0,1
+524,Angela Hill,Michelle Waterson,0,1,Derek Cleary,Sal D'Amato,Chris Lee,48-47,49-46,47-48,1,1,0,0,0,0,0,1
+525,Andre Ewell,Irwin Rivera,1,1,Michael Bell,Dave Hagen,Junichiro Kamijo,29-28,29-28,28-29,1,1,0,0,1,1,1,0
+526,Darren Stewart,Kevin Holland,0,0,Eric Colón,Sal D'Amato,Ron McCarthy,29-28,29-28,28-29,1,1,0,1,1,1,1,0
+527,Hakeem Dawodu,Zubaira Tukhugov,1,0,Ahmed Korchi,Anders Ohlsson,Dave Tirelli,29-28,30-27,28-29,1,1,0,5,0,0,0,1
+528,Guram Kutateladze,Mateusz Gamrot,1,1,David Lethaby,Darryl Ransom,Victor Wolf,28-29,29-28,29-28,0,1,1,5,1,0,1,1
+529,Geraldo De Freitas,Tony Gravely,0,0,Michael Bell,Sal D'Amato,Dave Hagen,29-28,28-29,30-27,1,0,1,2,1,1,0,1
+530,Paul Felder,Rafael Dos Anjos,0,0,Derek Cleary,Sal D'Amato,Chris Lee,50-45,50-45,47-48,1,1,0,2,1,1,1,0
+531,John Allan,Roman Dolidze,0,0,Michael Bell,Dave Hagen,Chris Lee,29-28,30-27,28-29,1,1,0,2,1,1,1,0
+532,David Zawada,Ramazan Emeev,0,0,Michael Bell,Ben Cartlidge,David Lethaby,28-29,29-28,29-28,0,1,1,2,1,0,1,1
+533,Carlos Felipe,Justin Tafa,1,0,Lukasz Bosacki,Anders Ohlsson,Paul Sutherland,29-28,28-29,29-28,1,0,1,3,0,0,1,0
+534,Matt Schnell,Tyson Nam,1,1,Michael Bell,Eric Colón,Anders Ohlsson,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+535,Movsar Evloev,Nik Lentz,1,1,Ben Cartlidge,Eric Colón,Paul Sutherland,29-28,28-29,29-28,1,0,1,3,1,1,0,1
+536,Beneil Dariush,Diego Ferreira,1,1,Dave Hagen,Chris Lee,Jerin Valel,29-28,29-28,28-29,1,1,0,4,1,1,1,0
+537,Casey Kenney,Dominick Cruz,0,0,Michael Bell,Derek Cleary,Sal D'Amato,28-29,29-28,30-27,0,1,1,3,1,0,1,1
+538,Cortney Casey,Jj Aldrich,0,1,Michael Bell,Sal D'Amato,Rick Winter,29-28,28-29,29-28,1,0,1,2,0,0,1,0
+539,Manel Kape,Matheus Nicolau,0,1,Dave Hagen,Chris Lee,Bryan Miner,28-29,29-28,29-28,0,1,1,2,0,1,0,0
+540,Michal Oleksiejczuk,Modestas Bukauskas,1,0,Eric Colón,Ron McCarthy,Tony Weeks,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+541,Ignacio Bahamondes,John Makdessi,0,0,Derek Cleary,Sal D'Amato,Dave Hagen,28-29,29-28,30-27,0,1,1,0,1,0,1,1
+542,Hunter Azure,Jack Shore,0,0,Michael Bell,Sal D'Amato,Dave Hagen,30-27,30-27,28-29,1,1,0,2,1,1,1,0
+543,Alexandr Romanov,Juan Espino,1,0,Dave Hagen,Chris Lee,Tony Weeks,29-28,28-29,29-28,1,0,1,4,0,0,1,0
+544,Alexander Munoz,Luis Pena,0,1,Michael Bell,Sal D'Amato,Rick Winter,28-29,29-28,29-28,0,1,1,3,0,1,0,0
+545,Justine Kish,Tracy Cortez,0,0,Derek Cleary,Sal D'Amato,Rick Winter,29-28,28-29,30-27,1,0,1,2,1,1,0,1
+546,Jessica Penne,Lupita Godinez,1,0,Michael Bell,Derek Cleary,Rick Winter,29-28,29-28,28-29,1,1,0,5,0,0,0,1
+547,Dwight Grant,Stefan Sekulic,1,0,Derek Cleary,Chris Lee,Howard Reichbach,28-29,29-28,29-28,0,1,1,5,0,1,0,0
+548,Kai Kamaka,Tj Brown,0,1,Michael Bell,Adalaide Byrd,Sal D'Amato,29-28,27-30,29-28,1,0,1,3,0,0,1,0
+549,Luana Carolina,Poliana Botelho,1,1,Sal D'Amato,Dave Hagen,Junichiro Kamijo,28-29,29-28,29-28,0,1,1,4,1,0,1,1
