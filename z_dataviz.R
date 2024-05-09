@@ -67,10 +67,13 @@ ggplot(data=agreements_plot, aes(x=as.factor(reorder(ID, desc(Average_Agreement)
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Average Rate with Outcome",
+         y="Average Agreement Rate with Outcome",
          title="Average Agreement Rate with Outcome by Judge",
          subtitle="For Judges with at least 5 fights") +
-    ylim(0, 1)
+    ylim(0, 1) +
+    theme(axis.text.y=element_text(size=12),
+          axis.title.y=element_text(size=16),
+          axis.title.x=element_text(size=16))
 ggsave(filename="agreement_rate_by_judge_outcome_all_clusters.png", path="figures")
 
 ### Graph for % Agreement of Media by Judge
