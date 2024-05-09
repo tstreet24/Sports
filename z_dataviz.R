@@ -68,7 +68,7 @@ ggplot(data=agreements_plot, aes(x=as.factor(reorder(ID, desc(Average_Agreement)
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
          y="Average Rate with Outcome",
-         title="Agreement Rate with Outcome by Judge",
+         title="Average Agreement Rate with Outcome by Judge",
          subtitle="For Judges with at least 5 fights") +
     ylim(0, 1)
 ggsave(filename="agreement_rate_by_judge_outcome_all_clusters.png", path="figures")
@@ -84,7 +84,7 @@ ggplot(data=media_agreements_plot, aes(x=as.factor(reorder(ID, desc(Average_Agre
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
          y="Average Rate with Media Decision",
-         title="Agreement Rate with Media Decision by Judge",
+         title="Average Agreement Rate with Media Decision by Judge",
          subtitle="For Judges with at least 5 fights") +
     ylim(0, 1)
 ggsave(filename="agreement_rate_by_judge_media_all_clusters.png", path="figures")
@@ -103,8 +103,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Outcome",
-         title="Agreement Rates with Outcome for Cluster 1 Fights",
+         y="Average Agreement Rate with Outcome",
+         title="Average Agreement Rates with Outcome for Cluster 1 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 1")
 ggsave(filename="agreement_rate_by_judge_outcome_cluster_1.png", path="figures")
 
@@ -121,8 +121,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Outcome",
-         title="Agreement Rates with Outcome for Cluster 2 Fights",
+         y="Average Agreement Rate with Outcome",
+         title="Average Agreement Rates with Outcome for Cluster 2 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 2")
 ggsave(filename="agreement_rate_by_judge_outcome_cluster_2.png", path="figures")
 
@@ -139,8 +139,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Outcome",
-         title="Agreement Rates with Outcome for Cluster 3 Fights",
+         y="Average Agreement Rate with Outcome",
+         title="Average Agreement Rates with Outcome for Cluster 3 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 3")
 ggsave(filename="agreement_rate_by_judge_outcome_cluster_3.png", path="figures")
 
@@ -157,8 +157,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Outcome",
-         title="Agreement Rates with Outcome for Cluster 4 Fights",
+         y="Average Agreement Rate with Outcome",
+         title="Average Agreement Rates with Outcome for Cluster 4 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 4")
 ggsave(filename="agreement_rate_by_judge_outcome_cluster_4.png", path="figures")
 
@@ -175,8 +175,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Outcome",
-         title="Agreement Rates with Outcome for Cluster 5 Fights",
+         y="Average Agreement Rate with Outcome",
+         title="Average Agreement Rates with Outcome for Cluster 5 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 5")
 ggsave(filename="agreement_rate_by_judge_outcome_cluster_5.png", path="figures")
 
@@ -193,8 +193,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Outcome",
-         title="Agreement Rates with Outcome for Cluster 6 Fights",
+         y="Average Agreement Rate with Outcome",
+         title="Average Agreement Rates with Outcome for Cluster 6 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 6")
 ggsave(filename="agreement_rate_by_judge_outcome_cluster_6.png", path="figures")
 
@@ -212,8 +212,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Media Decision",
-         title="Agreement Rates with Media Decision for Cluster 1 Fights",
+         y="Average Agreement Rate with Media Decision",
+         title="Average Agreement Rates with Media Decision for Cluster 1 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 1")
 ggsave(filename="agreement_rate_by_judge_media_cluster_1.png", path="figures")
 
@@ -230,8 +230,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Media Decision",
-         title="Agreement Rates with Media Decision for Cluster 2 Fights",
+         y="Average Agreement Rate with Media Decision",
+         title="Average Agreement Rates with Media Decision for Cluster 2 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 2")
 ggsave(filename="agreement_rate_by_judge_media_cluster_2.png", path="figures")
 
@@ -248,8 +248,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Media Decision",
-         title="Agreement Rates with Media Decision for Cluster 3 Fights",
+         y="Average Agreement Rate with Media Decision",
+         title="Average Agreement Rates with Media Decision for Cluster 3 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 3")
 ggsave(filename="agreement_rate_by_judge_media_cluster_3.png", path="figures")
 
@@ -266,8 +266,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Media Decision",
-         title="Agreement Rates with Media Decision for Cluster 4 Fights",
+         y="Average Agreement Rate with Media Decision",
+         title="Average Agreement Rates with Media Decision for Cluster 4 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 4")
 ggsave(filename="agreement_rate_by_judge_media_cluster_4.png", path="figures")
 
@@ -284,8 +284,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Media Decision",
-         title="Agreement Rates with Media Decision for Cluster 5 Fights",
+         y="Average Agreement Rate with Media Decision",
+         title="Average Agreement Rates with Media Decision for Cluster 5 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 5")
 ggsave(filename="agreement_rate_by_judge_media_cluster_5.png", path="figures")
 
@@ -302,8 +302,8 @@ ggplot(data=judge_stats %>%
           axis.text.x=element_blank(),
           axis.ticks.x=element_blank()) +
     labs(x="Judge",
-         y="Agreement Rate with Media Decision",
-         title="Agreement Rates with Media Decision for Cluster 6 Fights",
+         y="Average Agreement Rate with Media Decision",
+         title="Average Agreement Rates with Media Decision for Cluster 6 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 6")
 ggsave(filename="agreement_rate_by_judge_media_cluster_6.png", path="figures")
 
@@ -346,9 +346,9 @@ ggplot(data=media_plot,
            y=Prop)) +
     geom_col(fill="blue") +
     labs(x="Cluster",
-         y="Agreement Rate of Outcome",
+         y="Average Agreement Rate of Outcome",
          fill="Cluster",
-         title="Agreement Rate with Outcome by Cluster",
+         title="Average Agreement Rate with Outcome by Cluster",
          subtitle="Media Scoring") +
     theme_classic() +
     theme(legend.position="none")
