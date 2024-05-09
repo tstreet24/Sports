@@ -47,14 +47,14 @@ judge_stats <- merge(x=ids,
 ################################################################################
 ### Number of Fights by Cluster
 ggplot(data=analysis %>% mutate(Cluster = Cluster+1), aes(x=as.factor(Cluster), group=as.factor(Cluster), fill=as.factor(reorder(Cluster, desc(Cluster))))) +
-    geom_bar() +
-    scale_fill_viridis(option="plasma", discrete=TRUE) +
+    geom_bar(fill="blue") +
     labs(x="Cluster",
          y="# of Fights",
          fill="Cluster",
          title="Number of Split-Decision Fights per Cluster",
          subtitle="Professional Judges") +
-    theme_classic()
+    theme_classic() +
+    theme(legend.position="none")
 ggsave(filename="professional_judge_votes_histogram.png", path="figures")
 
 ### Graph for % Agreement of Outcome by Judge
@@ -330,29 +330,27 @@ ggplot(data=media_plot,
            y=Count,
            group=as.factor(Cluster),
            fill=as.factor(reorder(Cluster, desc(Cluster))))) +
-    geom_col() +
-    scale_fill_viridis(option="plasma", discrete=TRUE) +
+    geom_col(fill="blue") +
     labs(x="Cluster",
          y="# of Fights",
          fill="Cluster",
          title="Number of Split-Decision Fights per Cluster",
          subtitle="Media Scoring") +
-    theme_classic()
+    theme_classic() +
+    theme(legend.position="none")
 ggsave(filename="media_votes_count_histogram.png", path="figures")
 
 # Agreement Proportion of Media per Cluster
 ggplot(data=media_plot,
        aes(x=as.factor(Cluster),
-           y=Prop,
-           group=as.factor(Cluster),
-           fill=as.factor(reorder(Cluster, desc(Cluster))))) +
-    geom_col() +
-    scale_fill_viridis(option="plasma", discrete=TRUE) +
+           y=Prop)) +
+    geom_col(fill="blue") +
     labs(x="Cluster",
          y="Agreement Rate of Outcome",
          fill="Cluster",
          title="Agreement Rate with Outcome by Cluster",
          subtitle="Media Scoring") +
-    theme_classic()
+    theme_classic() +
+    theme(legend.position="none")
 ggsave(filename="media_votes_agreement_rates_histogram.png", path="figures")
 ################################################################################
