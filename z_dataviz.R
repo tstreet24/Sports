@@ -4,6 +4,7 @@ library(ggplot2)
 library(ggsci)
 library(cowplot)
 library(reshape2)
+library(viridis)
 ################################################################################
 setwd("~/Documents/MIT/15.285_Sports_Analytics/Sports")
 ################################################################################
@@ -47,7 +48,7 @@ judge_stats <- merge(x=ids,
 ### Number of Fights by Cluster
 ggplot(data=analysis %>% mutate(Cluster = Cluster+1), aes(x=as.factor(Cluster), group=as.factor(Cluster), fill=as.factor(reorder(Cluster, desc(Cluster))))) +
     geom_bar() +
-    scale_fill_locuszoom() +
+    scale_fill_viridis(option="plasma", discrete=TRUE) +
     labs(x="Cluster",
          y="# of Fights",
          fill="Cluster",
@@ -331,7 +332,7 @@ ggplot(data=media_plot,
            group=as.factor(Cluster),
            fill=as.factor(reorder(Cluster, desc(Cluster))))) +
     geom_col() +
-    scale_fill_locuszoom() +
+    scale_fill_viridis(option="plasma", discrete=TRUE) +
     labs(x="Cluster",
          y="# of Fights",
          fill="Cluster",
@@ -347,7 +348,7 @@ ggplot(data=media_plot,
            group=as.factor(Cluster),
            fill=as.factor(reorder(Cluster, desc(Cluster))))) +
     geom_col() +
-    scale_fill_locuszoom() +
+    scale_fill_viridis(option="plasma", discrete=TRUE) +
     labs(x="Cluster",
          y="Agreement Rate of Outcome",
          fill="Cluster",
