@@ -54,6 +54,7 @@ ggplot(data=analysis %>% mutate(Cluster = Cluster+1), aes(x=as.factor(Cluster), 
          title="Number of Split-Decision Fights per Cluster",
          subtitle="Professional Judges") +
     theme_classic()
+ggsave(filename="professional_judge_votes_histogram.png", path="figures")
 
 ### Graph for % Agreement of Outcome by Judge
 agreements_plot <- agreements %>%
@@ -69,6 +70,7 @@ ggplot(data=agreements_plot, aes(x=as.factor(reorder(ID, desc(Average_Agreement)
          title="Agreement Rate with Outcome by Judge",
          subtitle="For Judges with at least 5 fights") +
     ylim(0, 1)
+ggsave(filename="agreement_rate_by_judge_outcome_all_clusters.png", path="figures")
 
 ### Graph for % Agreement of Media by Judge
 media_agreements_plot <- media_agreements %>%
@@ -84,6 +86,7 @@ ggplot(data=media_agreements_plot, aes(x=as.factor(reorder(ID, desc(Average_Agre
          title="Agreement Rate with Media Decision by Judge",
          subtitle="For Judges with at least 5 fights") +
     ylim(0, 1)
+ggsave(filename="agreement_rate_by_judge_media_all_clusters.png", path="figures")
 
 ### Graph for % Agreement of Outcome by Judge, by Cluster
 # Cluster 1
@@ -102,6 +105,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Outcome",
          title="Agreement Rates with Outcome for Cluster 1 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 1")
+ggsave(filename="agreement_rate_by_judge_outcome_cluster_1.png", path="figures")
+
 # Cluster 2
 ggplot(data=judge_stats %>%
             filter(Cluster_1_Prop != -1) %>%
@@ -118,6 +123,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Outcome",
          title="Agreement Rates with Outcome for Cluster 2 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 2")
+ggsave(filename="agreement_rate_by_judge_outcome_cluster_2.png", path="figures")
+
 # Cluster 3
 ggplot(data=judge_stats %>%
            filter(Cluster_2_Prop != -1) %>%
@@ -134,6 +141,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Outcome",
          title="Agreement Rates with Outcome for Cluster 3 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 3")
+ggsave(filename="agreement_rate_by_judge_outcome_cluster_3.png", path="figures")
+
 # Cluster 4
 ggplot(data=judge_stats %>%
            filter(Cluster_3_Prop != -1) %>%
@@ -150,6 +159,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Outcome",
          title="Agreement Rates with Outcome for Cluster 4 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 4")
+ggsave(filename="agreement_rate_by_judge_outcome_cluster_4.png", path="figures")
+
 # Cluster 5
 ggplot(data=judge_stats %>%
            filter(Cluster_4_Prop != -1) %>%
@@ -166,6 +177,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Outcome",
          title="Agreement Rates with Outcome for Cluster 5 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 5")
+ggsave(filename="agreement_rate_by_judge_outcome_cluster_5.png", path="figures")
+
 # Cluster 6
 ggplot(data=judge_stats %>%
            filter(Cluster_5_Prop != -1) %>%
@@ -182,6 +195,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Outcome",
          title="Agreement Rates with Outcome for Cluster 6 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 6")
+ggsave(filename="agreement_rate_by_judge_outcome_cluster_6.png", path="figures")
+
 ### Graph for % Agreement of Media by Judge, by Cluster
 # Cluster 1
 ggplot(data=judge_stats %>%
@@ -199,6 +214,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Media Decision",
          title="Agreement Rates with Media Decision for Cluster 1 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 1")
+ggsave(filename="agreement_rate_by_judge_media_cluster_1.png", path="figures")
+
 # Cluster 2
 ggplot(data=judge_stats %>%
            filter(Cluster_1_Prop_media != -1) %>%
@@ -215,6 +232,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Media Decision",
          title="Agreement Rates with Media Decision for Cluster 2 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 2")
+ggsave(filename="agreement_rate_by_judge_media_cluster_2.png", path="figures")
+
 # Cluster 3
 ggplot(data=judge_stats %>%
            filter(Cluster_2_Prop_media != -1) %>%
@@ -231,6 +250,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Media Decision",
          title="Agreement Rates with Media Decision for Cluster 3 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 3")
+ggsave(filename="agreement_rate_by_judge_media_cluster_3.png", path="figures")
+
 # Cluster 4
 ggplot(data=judge_stats %>%
            filter(Cluster_3_Prop_media != -1) %>%
@@ -247,6 +268,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Media Decision",
          title="Agreement Rates with Media Decision for Cluster 4 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 4")
+ggsave(filename="agreement_rate_by_judge_media_cluster_4.png", path="figures")
+
 # Cluster 5
 ggplot(data=judge_stats %>%
            filter(Cluster_4_Prop_media != -1) %>%
@@ -263,6 +286,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Media Decision",
          title="Agreement Rates with Media Decision for Cluster 5 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 5")
+ggsave(filename="agreement_rate_by_judge_media_cluster_5.png", path="figures")
+
 # Cluster 6
 ggplot(data=judge_stats %>%
            filter(Cluster_5_Prop_media != -1) %>%
@@ -279,6 +304,8 @@ ggplot(data=judge_stats %>%
          y="Agreement Rate with Media Decision",
          title="Agreement Rates with Media Decision for Cluster 6 Fights",
          subtitle="For Judges with at least 1 fight in Cluster 6")
+ggsave(filename="agreement_rate_by_judge_media_cluster_6.png", path="figures")
+
 ### Graph for % Agreement of Media, by Cluster
 media_plot <- judge_stats %>%
     filter(`Judge Name` == "Media") %>%
@@ -295,6 +322,7 @@ media_plot <- judge_stats %>%
     dcast(`Judge Name` + Cluster ~ type) %>%
     select(`Judge Name`, Cluster, Count, Prop) %>%
     filter(Cluster != -1)
+ggsave(filename="agreement_rate_media_with_outcome_all_clusters.png", path="figures")
 
 # Count of Media Votes per Cluster
 ggplot(data=media_plot,
@@ -310,6 +338,7 @@ ggplot(data=media_plot,
          title="Number of Split-Decision Fights per Cluster",
          subtitle="Media Scoring") +
     theme_classic()
+ggsave(filename="media_votes_histogram.png", path="figures")
 
 # Agreement Proportion of Media per Cluster
 ggplot(data=media_plot,
@@ -325,4 +354,5 @@ ggplot(data=media_plot,
          title="Agreement Rate with Outcome by Cluster",
          subtitle="Media Scoring") +
     theme_classic()
+ggsave(filename="agreement_rate_media_with_outcome_by_cluster", path="figures")
 ################################################################################
