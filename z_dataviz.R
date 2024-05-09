@@ -323,7 +323,6 @@ media_plot <- judge_stats %>%
     dcast(`Judge Name` + Cluster ~ type) %>%
     select(`Judge Name`, Cluster, Count, Prop) %>%
     filter(Cluster != -1)
-ggsave(filename="agreement_rate_media_with_outcome_all_clusters.png", path="figures")
 
 # Count of Media Votes per Cluster
 ggplot(data=media_plot,
@@ -339,7 +338,7 @@ ggplot(data=media_plot,
          title="Number of Split-Decision Fights per Cluster",
          subtitle="Media Scoring") +
     theme_classic()
-ggsave(filename="media_votes_histogram.png", path="figures")
+ggsave(filename="media_votes_count_histogram.png", path="figures")
 
 # Agreement Proportion of Media per Cluster
 ggplot(data=media_plot,
@@ -355,5 +354,5 @@ ggplot(data=media_plot,
          title="Agreement Rate with Outcome by Cluster",
          subtitle="Media Scoring") +
     theme_classic()
-ggsave(filename="agreement_rate_media_with_outcome_by_cluster", path="figures")
+ggsave(filename="media_votes_agreement_rates_histogram.png", path="figures")
 ################################################################################
